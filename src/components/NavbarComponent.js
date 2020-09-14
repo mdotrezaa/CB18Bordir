@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 const NavbarComponent = (props) => {
   return (
+    <div className="nav-border">
     <Navbar collapseOnSelect expand="lg">
       <Container fluid>
         <Navbar.Brand href="#home">Cahaya Baru 18</Navbar.Brand>
@@ -17,6 +18,7 @@ const NavbarComponent = (props) => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
   );
 };
 
