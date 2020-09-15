@@ -1,7 +1,34 @@
+@media only screen and (max-width: 720px) {
+  .hide-on-med{
+   display: none;
+  }
+  .sectionOneLeft div{
+    width: 100%!important;
+  }
+  .two-right{
+    width: 100%!important;
+  }
+}
+@media only screen and (min-width: 960px) {
+  
+}
+
 /* general css */
 body{
   background: #fbfbfb;
   font-family: 'Montserrat', sans-serif;
+}
+.img-responsive{
+  width: 100%;
+}
+h1,h2,h3{
+  font-weight: 700!important;
+  line-height: 1.5em!important;
+}
+h4,h5,h6{
+  font-weight: 600!important;
+  line-height: 1.5em!important;
+  font-style: italic!important;
 }
 .btn-primary{
   background-color: #157295!important;
@@ -56,15 +83,25 @@ i{
 /* end nav css */
 /* home css */
 .section-one{
-  height: 100vh;
+  min-height: 100vh;
 }
 .section-two{
-  height: 100vh;
+  padding: 10% 0;
+  max-height: 100vh;
+}
+.section-three{
+  padding: 10% 0;
+  max-height: 100vh;
+}
+.section-four{
+  padding: 10% 0;
+  max-height: 100vh;
+  background: #157295;
 }
 
 
 .sectionOneLeft{
-  margin: 15% 0;
+  margin: 10% 0;
 }
 .sectionOneLeft h1{
   font-weight: 700;
@@ -107,6 +144,8 @@ i{
 }
 .two-left img{
   width: 70%;
+  display: flex;
+  margin: 0 auto;
 }
 
 /* end home css */
