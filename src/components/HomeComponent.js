@@ -65,8 +65,7 @@ export default class HomePage extends  React.Component {
           <div className="three-left">
             <h2>Lorem ipsum dolor sit amet</h2>
             <h5>"Lorem ipsum dolor sit amet"</h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <Button className="btn-secondary" variant="primary">
               Layanan Kami
             </Button>
