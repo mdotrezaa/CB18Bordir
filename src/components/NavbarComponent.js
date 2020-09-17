@@ -11,7 +11,7 @@ const NavbarComponent = (props) => {
         <Navbar.Collapse id="responsive-navbar-nav justify-content-end">
           <Nav className="ml-auto">
             <Nav.Link href="/tentang-kami">Tentang Kami</Nav.Link>
-            <Nav.Link href="#deets">Layanan</Nav.Link>
+            <Nav.Link href="/layanan">Layanan</Nav.Link>
             <Nav.Link href="#deets">Aktivitas</Nav.Link>
             <Nav.Link href="#deets">Hubungi Kami</Nav.Link>
           </Nav>

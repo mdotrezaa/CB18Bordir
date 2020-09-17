@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const FooterComponent = (props) => {
   return (
@@ -11,7 +11,7 @@ const FooterComponent = (props) => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </Col>
             <Col>
-              <h5>Tentang Kami</h5>
+              <h6>Tentang Kami</h6>
               <ul>
                   <li>Tentang kami</li>
                   <li>Tentang kami</li>
@@ -20,7 +20,7 @@ const FooterComponent = (props) => {
               </ul>
             </Col>
             <Col>
-              <h5>Layanan Kami</h5>
+              <h6>Layanan Kami</h6>
               <ul>
                   <li>Tentang kami</li>
                   <li>Tentang kami</li>
@@ -29,7 +29,7 @@ const FooterComponent = (props) => {
               </ul>
             </Col>
             <Col>
-              <h5>Hubungi Kami</h5>
+              <h6>Hubungi Kami</h6>
               <ul>
                   <li>Tentang kami</li>
                   <li>Tentang kami</li>
