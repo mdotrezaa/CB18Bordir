@@ -73,7 +73,7 @@ export default class HomePage extends  React.Component {
         </Col>
         <Col xs={12} md={6}>
           <div className="three-right">
-            <Image className="img-responsive" src={require("../assets/images/section-three.png")} />
+            <Image className="img-responsive hide-on-med" src={require("../assets/images/section-three.png")} />
           </div>
         </Col>
         </Row>
