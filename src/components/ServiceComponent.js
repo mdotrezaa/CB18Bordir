@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Image, Card } from "react-bootstrap";
+import { Container, Row, Col, Button, Image, Card, ListGroup } from "react-bootstrap";
 
 export default class ServicePage extends  React.Component {
   render(){
@@ -13,7 +13,7 @@ export default class ServicePage extends  React.Component {
                     <h5>"Some quick example text to build on the card title and make up the bulk of
                           the card's content."</h5>
               </Col>
-              <Col>
+              <Col className="hide-on-med">
                     <Image className="img-responsive" src={require("../assets/images/section-three.png")} />
               </Col>
             </Row>
@@ -24,19 +24,18 @@ export default class ServicePage extends  React.Component {
                             <Card.Header>Bordir Komputer</Card.Header>
                             <Card.Body>
                                 <Card.Text>
-                                  <ul>
-                                    <li>Bordir Polo Shirt</li>
-                                    <li>Bordir Kemeja</li>
-                                    <li>Bordir Jaket</li>
-                                    <li>Bordir Rompi</li>
-                                    <li>Bordir Emblem</li>
-                                    <li>Bordir Topi</li>
-                                    <li>Bordir Handuk</li>
-                                    <li>Bordir Slempang</li>
-                                    <li>Dan Lainnya</li>
-                                  </ul>
+                                <ListGroup variant="flush">
+                                  <ListGroup.Item>Bordir Polo Shirt</ListGroup.Item>
+                                  <ListGroup.Item>Bordir Kemeja</ListGroup.Item>
+                                  <ListGroup.Item>Bordir Jaket</ListGroup.Item>
+                                  <ListGroup.Item>Bordir Rompi</ListGroup.Item>
+                                  <ListGroup.Item>Bordir Emblem</ListGroup.Item>
+                                  <ListGroup.Item>Bordir Topi</ListGroup.Item>
+                                  <ListGroup.Item>Bordir Handuk</ListGroup.Item>
+                                  <ListGroup.Item>Bordir Slempang </ListGroup.Item>
+                                  <ListGroup.Item>Dan Lainnya </ListGroup.Item>
+                                </ListGroup>
                                 </Card.Text>
-                                <Button style={{ width: '100%' }} variant="primary">Go somewhere</Button>
                             </Card.Body>
                         </Card>
                   </Col>
@@ -45,16 +44,15 @@ export default class ServicePage extends  React.Component {
                             <Card.Header>Bordir Manual</Card.Header>
                             <Card.Body>
                                 <Card.Text>
-                                  <ul>
-                                    <li>Pataka</li>
-                                    <li>Bendera Besar</li>
-                                    <li>Bunga Untuk Kebaya</li>
-                                    <li>Kaligrafi Besar</li>
-                                    <li>Pemandangan</li>
-                                    <li>Dan Lainya</li>
-                                  </ul>
+                                <ListGroup variant="flush">
+                                  <ListGroup.Item>Pataka</ListGroup.Item>
+                                  <ListGroup.Item>Bendera Besar</ListGroup.Item>
+                                  <ListGroup.Item>Bunga Untuk Kebaya</ListGroup.Item>
+                                  <ListGroup.Item>Kaligrafi Besar</ListGroup.Item>
+                                  <ListGroup.Item>Pemandangan</ListGroup.Item>
+                                  <ListGroup.Item>Dan Lainya</ListGroup.Item>
+                                </ListGroup>
                                 </Card.Text>
-                                <Button style={{ width: '100%' }} variant="primary">Go somewhere</Button>
                             </Card.Body>
                         </Card>
                   </Col>
@@ -63,14 +61,13 @@ export default class ServicePage extends  React.Component {
                             <Card.Header>Menerima Pembuatan</Card.Header>
                             <Card.Body>
                                 <Card.Text>
-                                  <ul>
-                                    <li>Kemeja</li>
-                                    <li>Polo Shirt</li>
-                                    <li>Kaos Oblong</li>
-                                    <li>Topi</li>
-                                  </ul>
+                                <ListGroup variant="flush">
+                                  <ListGroup.Item>Kemeja</ListGroup.Item>
+                                  <ListGroup.Item>Polo Shirt</ListGroup.Item>
+                                  <ListGroup.Item>Kaos Oblong</ListGroup.Item>
+                                  <ListGroup.Item>Topi</ListGroup.Item>
+                                </ListGroup>
                                 </Card.Text>
-                                <Button style={{ width: '100%' }} variant="primary">Go somewhere</Button>
                             </Card.Body>
                         </Card>
                   </Col>
