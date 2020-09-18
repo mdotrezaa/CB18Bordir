@@ -12,8 +12,8 @@ const NavbarComponent = (props) => {
           <Nav className="ml-auto">
             <Nav.Link href="/tentang-kami">Tentang Kami</Nav.Link>
             <Nav.Link href="/layanan">Layanan</Nav.Link>
-            <Nav.Link href="#deets">Aktivitas</Nav.Link>
-            <Nav.Link href="#deets">Hubungi Kami</Nav.Link>
+            <Nav.Link href="/aktivitas">Aktivitas</Nav.Link>
+            <Nav.Link href="/kontak-kami">Hubungi Kami</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

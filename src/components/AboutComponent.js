@@ -31,12 +31,12 @@ export default class AboutPage extends  React.Component {
             </div>
           </Container> 
         </div>
-        <div className="about-page">
+        <div className="activity">
             <Container>
                 <h2 className="center">Aktivitas Terbaru Kami</h2>
               <Row>
                 <Col md={4} sm={12}>
-                  <Card>
+                  <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
                     <Card.Body>
                       <Card.Title>Card Title</Card.Title>
@@ -44,25 +44,25 @@ export default class AboutPage extends  React.Component {
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                       </Card.Text>
-                      <Button  className="btn-primary">Go somewhere</Button>
+                      <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
                     </Card.Body>
                   </Card>
                 </Col>
                 <Col md={4} sm={12}>
-                  <Card>
-                    <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-                      </Card.Text>
-                      <Button className="btn-primary">Go somewhere</Button>
-                    </Card.Body>
+                    <Card style={{ width: '18rem' }}>
+                      <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
+                      <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </Card.Text>
+                        <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
+                      </Card.Body>
                   </Card>
                 </Col>
                 <Col md={4} sm={12}>
-                  <Card>
+                  <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
                     <Card.Body>
                       <Card.Title>Card Title</Card.Title>
@@ -70,7 +70,7 @@ export default class AboutPage extends  React.Component {
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                       </Card.Text>
-                      <Button className="btn-primary">Go somewhere</Button>
+                      <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
                     </Card.Body>
                   </Card>
                 </Col>

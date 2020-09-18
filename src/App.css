@@ -82,6 +82,7 @@ i{
   color: #fff;
 }
 .card{
+  background: #eee!important;
   border: none!important;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -101,6 +102,9 @@ i{
   width: 50%;
   top: -3px;
   left: 0;
+}
+.navbar a{
+  margin: 0 10px;
 }
 /* end nav css */
 /* home css */
@@ -186,7 +190,7 @@ i{
   background-image: url("../src/assets/images/vector.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 10% 0;
+  margin: 30px 0;
 }
 .about-page h1{
   font-size: 36pt;
@@ -201,7 +205,7 @@ i{
   background-image: url("../src/assets/images/vector.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 10% 0;
+  margin: 30px 0;
 }
 .service-page h1{
   font-size: 36pt;
@@ -215,16 +219,49 @@ i{
   margin: 0 auto;
 }
 .service-two{
-  margin: 10% 0;
-  padding: 10% 0;
-  height: 600px;
-  background-image: linear-gradient(to right, #2193b0, #6dd5ed);
-	transform: skewY(5deg);
+  padding: 5% 0;
 }
-.service-two .content{
-  transform: skewY(-5deg);
+.service-two .card-header{
+  font-weight: 700;
+  font-size: 16pt;
+}
+.service-two .second{
+  margin: 28% 0;
+}
+.service-two .third{
+  margin: 45% 0;
+}
+.service-page ul {
+  list-style: none;
+  padding: 0!important;
+}
+.service-page ul li {
+  line-height: 2rem;
 }
 /* end service */
+
+/* aktivitas */
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.tab-content{
+  margin: 30px 0!important;
+}
+/* end aktivitas */
+.kontak ul{
+  list-style: none;
+}
+.kontak i{
+  background-color: #157295!important;
+  margin: 5px;
+}
+/* kontak */
+
+/* end kontak */
 
 /* slider */
 .slick-slide {
