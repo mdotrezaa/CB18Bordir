@@ -11,7 +11,7 @@ const FooterComponent = (props) => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </Col>
             <Col>
-              <h6>Tentang Kami</h6>
+              <h5>Tentang Kami</h5>
               <ul>
                   <li>Tentang kami</li>
                   <li>Tentang kami</li>
@@ -20,7 +20,7 @@ const FooterComponent = (props) => {
               </ul>
             </Col>
             <Col>
-              <h6>Layanan Kami</h6>
+              <h5>Layanan Kami</h5>
               <ul>
                   <li>Tentang kami</li>
                   <li>Tentang kami</li>
@@ -29,12 +29,15 @@ const FooterComponent = (props) => {
               </ul>
             </Col>
             <Col>
-              <h6>Hubungi Kami</h6>
+              <h5>Hubungi Kami</h5>
               <ul>
                   <li>Tentang kami</li>
                   <li>Tentang kami</li>
-                  <li>Tentang kami</li>
-                  <li>Tentang kami</li>
+                  <li className="socmed">
+                    <i class='bx bxl-facebook bx-xs bx-border-circle'></i>
+                    <i class='bx bxl-twitter bx-xs bx-border-circle' ></i>
+                    <i class='bx bxl-instagram bx-xs bx-border-circle'></i>
+                  </li> 
               </ul>
             </Col>
           </Row>

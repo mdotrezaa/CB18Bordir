@@ -1,10 +1,10 @@
 import React from "react";
-import { Container, Row, Col, Button, Image, Card, Tabs, Tab, Form, InputGroup, FormControl } from "react-bootstrap";
+import { Container, Row, Col, Button, Form, InputGroup, FormControl } from "react-bootstrap";
 
 export default class ContactPage extends  React.Component {
   render(){
     return (
-      <div className="kontak-wrap">
+      <div className="kontak-wrap bg">
         <div className="kontak-page">
           <Container>
             <Row>
@@ -37,11 +37,11 @@ export default class ContactPage extends  React.Component {
                             mail@mail.id<p></p>
                           </span>
                         </li>
-                        {/* <li className="socmed">
-                          <i class='bx bxl-facebook bx-xs bx-border-circle'></i>
-                          <i class='bx bxl-twitter bx-xs bx-border-circle' ></i>
-                          <i class='bx bxl-instagram bx-xs bx-border-circle'></i>
-                        </li> */}
+                        <li className="socmed">
+                          <a href=""><i class='bx bxl-facebook bx-xs bx-border-circle'></i></a>
+                          <a href=""><i class='bx bxl-twitter bx-xs bx-border-circle'></i></a>
+                          <a href=""><i class='bx bxl-instagram bx-xs bx-border-circle'></i></a>
+                        </li>
                     </ul>
                 </div>
                 </Col>
@@ -84,7 +84,7 @@ export default class ContactPage extends  React.Component {
                         </Form.Group>
                       </Col>
                     </Form.Row>
-                    <Button className="btn-secondary">Send</Button>
+                    <Button className="btn-primary">Send</Button>
                   </Form>
                 </Col>
             </Row>
