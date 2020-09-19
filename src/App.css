@@ -139,13 +139,29 @@ i{
 .navbar-brand img{
   width: 100%;
 }
-.navbar .nav-link{
+.navbar .navbar-nav a{
   font-weight: 600!important;
-  color: #000!important;
+  color: #2d2d2d!important;
   margin: 0 5px;
 }
-.navbar__link--active{
-  color: #157295;
+.navbar .navbar-nav a:hover{
+  color: #157295!important;
+  text-decoration: none!important;
+}
+.active{
+  color: #157295!important;
+}
+.wa-btn{
+  background-color: #075e54!important;
+  color: #fff;
+  font-size: 11pt!important;
+  padding: 5px 10px!important;
+}
+.wa-btn i{
+  padding: 5px;
+}
+.wa-btn:hover{
+  background-color: #25d366!important;
 }
 /* end nav css */
 /* home css */

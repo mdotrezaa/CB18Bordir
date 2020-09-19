@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container, Image, Button } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const NavbarComponent = (props) => {
   return (
@@ -10,12 +11,12 @@ const NavbarComponent = (props) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav justify-content-end">
           <Nav defaultActiveKey="/" className="ml-auto center-img">
-            <Nav.Link activeClassName="navbar__link--active" href="/tentang-kami">Tentang Kami</Nav.Link>
-            <Nav.Link activeClassName="navbar__link--active" href="/layanan">Layanan</Nav.Link>
-            <Nav.Link activeClassName="navbar__link--active" href="/aktivitas">Aktivitas</Nav.Link>
-            <Nav.Link activeClassName="navbar__link--active" href="/kontak-kami">Hubungi Kami</Nav.Link>
+            <NavLink activeClassName="active" to="/tentang-kami">Tentang Kami</NavLink>
+            <NavLink activeClassName="active" to="/layanan">Layanan</NavLink>
+            <NavLink activeClassName="active" to="/aktivitas">Aktivitas</NavLink>
+            <NavLink activeClassName="active" to="/kontak-kami">Kontak</NavLink>
           </Nav>
-          <Button>ASDs</Button>
+          <Button className="wa-btn"><i class='bx bxl-whatsapp'></i>Klik Untuk Info</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
