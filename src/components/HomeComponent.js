@@ -16,6 +16,7 @@ export default class HomePage extends React.Component {
                   Tenaga Berpengalaman Demi Menghasilkan Kualitas Terbaik Baru
                   Pelanggan.
                 </p>
+                <br />
                 <Button
                   className="btn-primary contact-us-btn"
                   variant="primary"
@@ -66,11 +67,12 @@ export default class HomePage extends React.Component {
                 <h2>Alasan Memilih Cahaya Baru 18?</h2>
                 <p>
                   <b>Cahaya Baru 18</b> memberikan jaminan kualitas terbaik bagi
-                  setiap pelanggan. Jaminan kualitas yang disertai dengan waktu
-                  pengerjaan yang cepat dan dikerjakan oleh tenaga profesional
-                  yang memiliki pengalaman panjang dalam bidang bordir. Selain
-                  itu, kami juga memberikan layanan pesan antar untuk kemudahan
-                  pelanggan.
+                  setiap pelanggan. Kami bekerja dengan tenaga - tenaga
+                  profesional yang didukung dengan peralatan terbaik, demi
+                  menghasilkan produk - produk berkualitas tinggi. Kami memiliki
+                  banyak cabang yang bertujuan untuk meningkatkan kinerja agar
+                  menjadi lebih baik dan lebih cepat dalam memproses setiap
+                  permintaan pelanggan.
                 </p>
               </div>
             </Col>
@@ -81,15 +83,19 @@ export default class HomePage extends React.Component {
             <Row className="content">
               <Col xs={12} md={6}>
                 <div className="three-left">
-                  <h2>Lorem ipsum dolor sit amet</h2>
-                  <h5>"Lorem ipsum dolor sit amet"</h5>
+                  <h2>Apa Yang Kami Tawarkan?</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Kami menawarkan jasa bordir dengan teknologi komputer, yang
+                    dapat menghasilkan produk - produk berkualitas dalam waktu
+                    yang cepat. Selain itu juga kami menawarkan jasa sablon dan
+                    konveksi kepada pelanggan. Fleksibilitas yang kami tawarkan
+                    memudahkan pelanggan dalam menggunakan jasa kami, sehingga
+                    pelanggan dapat menggunakan jasa kami tanpa harus memikirkan
+                    konveksi ataupun sablon karena kami memberikan semua
+                    pelayanan tersebut.
                   </p>
-                  <Button className="btn-secondary" variant="primary">
+                  <br />
+                  <Button className="btn-primary service-btn" variant="primary">
                     Layanan Kami
                   </Button>
                 </div>
