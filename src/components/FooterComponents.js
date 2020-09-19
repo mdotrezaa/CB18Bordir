@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 const FooterComponent = (props) => {
   return (
@@ -7,25 +7,24 @@ const FooterComponent = (props) => {
         <Container>
           <Row>
             <Col>
-              <h4>CahayaBaru18</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <Image width="50%" className="center-img" src={require("../assets/images/logo.png")} />
+
             </Col>
             <Col>
               <h5>Tentang Kami</h5>
               <ul>
-                  <li>Tentang kami</li>
-                  <li>Tentang kami</li>
-                  <li>Tentang kami</li>
-                  <li>Tentang kami</li>
+                  <li>Some quick example text to build on the card title and make up the bulk of
+                          the card's content.</li>
               </ul>
             </Col>
             <Col>
-              <h5>Layanan Kami</h5>
+              <h5>Navigasi</h5>
               <ul>
-                  <li>Tentang kami</li>
-                  <li>Tentang kami</li>
-                  <li>Tentang kami</li>
-                  <li>Tentang kami</li>
+                  <li><a href="/">Beranda</a></li>
+                  <li><a href="/tentang-kami">Tentang Kami</a></li>
+                  <li><a href="/layanan">Layanan</a></li>
+                  <li><a href="/aktivitas">Aktivitas</a></li>
+                  <li><a href="/kontak-kami">Kontak Kami</a></li>
               </ul>
             </Col>
             <Col>

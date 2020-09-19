@@ -19,12 +19,17 @@ export default class HomePage extends  React.Component {
               </Button>
             </div>
             <hr className="divider"></hr>
-            <div className="icon-phone">
+            <div className="bottom-header">
+              <p>
+                Kami Memberikan Penawaran Jasa Bordir Berkualitas Atas Kebutuhan
+                Anda!
+              </p>
                 <div className="icon">
                     <span><i className='bx bxs-phone bx-border-circle bx-sm'></i></span>
                     <div className="icon-text">
                         <ul>
                           <li className="phone-title">Phone</li>
+                          <li className="phone">(+62) 856-1234-5678</li>
                           <li className="phone">(+62) 856-1234-5678</li>
                         </ul>
                     </div>
@@ -38,6 +43,7 @@ export default class HomePage extends  React.Component {
           </Col>
         </Row>
       </Container>
+      <div className="divider-1"></div>
       <Container>
         <Row className="section-two">
         <Col xs={12} md={6}>
