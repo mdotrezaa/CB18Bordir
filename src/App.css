@@ -233,6 +233,10 @@ i {
   margin: 5px 0;
 }
 
+.bottom-header .icon {
+  display: flex;
+}
+
 .phone a {
   color: #157295;
 }
