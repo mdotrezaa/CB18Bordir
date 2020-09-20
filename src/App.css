@@ -143,7 +143,6 @@ i {
 .navbar-brand img {
   width: 100%;
 }
-<<<<<<< HEAD
 .navbar .navbar-nav a{
   font-weight: 600!important;
   color: #2d2d2d!important;
@@ -167,15 +166,6 @@ i {
 }
 .wa-btn:hover{
   background-color: #25d366!important;
-=======
-.navbar .nav-link {
-  font-weight: 600 !important;
-  color: #000 !important;
-  margin: 0 5px;
-}
-.navbar__link--active {
-  color: #157295;
->>>>>>> d5d1c5f952b9afc2e069076b2c5f82a72b02a370
 }
 /* end nav css */
 /* home css */
