@@ -68,6 +68,7 @@ h6 {
   border: #157295 !important;
   padding: 10px 24px !important;
   font-size: 14pt !important;
+  font-weight: 600 !important;
 }
 .btn-secondary {
   background-color: #fff !important;
@@ -94,18 +95,19 @@ h6 {
 .divider {
   margin: 40px auto;
   float: left;
-  width: 100%;
+  width: 80% !important;
+  border-top: 1px solid #2193b0;
 }
 .divider-1 {
   width: 40%;
   opacity: 0.1;
-  border-top: 1px solid #000;
+  border-top: 1px solid #2193b0;
   display: flex;
   margin: 0 auto;
   padding: 40px 0;
 }
 .bx-border-circle {
-  background: #2d2d2d;
+  background: #157295;
 }
 i {
   color: #fbfbfb;
@@ -118,6 +120,10 @@ i {
   background: #eee !important;
   border: none !important;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: none !important;
 }
 /* end general css */
 /* nav css */
@@ -143,29 +149,55 @@ i {
 .navbar-brand img {
   width: 100%;
 }
+<<<<<<< HEAD
 .navbar .navbar-nav a{
   font-weight: 600!important;
   color: #2d2d2d!important;
   margin: 0 5px;
+=======
+.navbar .navbar-nav a {
+  font-weight: 600 !important;
+  color: #2d2d2d !important;
+  margin: 0 10px;
+>>>>>>> 714a51ede2c050697c53868605ebeab616ecf0a7
 }
-.navbar .navbar-nav a:hover{
-  color: #157295!important;
-  text-decoration: none!important;
+
+.navbar .navbar-nav a:hover {
+  color: #157295 !important;
+  text-decoration: none !important;
 }
-.active{
-  color: #157295!important;
+
+.active {
+  color: #157295 !important;
 }
-.wa-btn{
-  background-color: #075e54!important;
-  color: #fff;
-  font-size: 11pt!important;
-  padding: 5px 10px!important;
+
+.wa-btn {
+  background-color: transparent !important;
+  color: #157295 !important;
+  font-size: 12pt !important;
+  padding: 5px 10px !important;
+  font-weight: 600 !important;
 }
-.wa-btn i{
-  padding: 5px;
+
+.wa-btn i {
+  vertical-align: middle;
+  color: #157295;
+  font-size: 20pt !important;
+  font-weight: 600 !important;
 }
+<<<<<<< HEAD
 .wa-btn:hover{
   background-color: #25d366!important;
+=======
+
+.navbar .nav-link {
+  font-weight: 600 !important;
+  color: #000 !important;
+  margin: 0 5px;
+}
+.navbar__link--active {
+  color: #157295;
+>>>>>>> 714a51ede2c050697c53868605ebeab616ecf0a7
 }
 /* end nav css */
 /* home css */
@@ -200,6 +232,7 @@ i {
 }
 .sectionOneLeft div {
   width: 80%;
+  display: inline-block;
 }
 .sectionOneRight {
   margin: 8% 0;
@@ -209,8 +242,22 @@ i {
   font-size: 12px;
 }
 .bottom-header span {
-  margin: 30px 0;
+  margin: 5px 0;
 }
+
+.bottom-header .icon {
+  display: flex;
+}
+
+.phone a {
+  color: #157295;
+}
+
+.phone a:hover {
+  text-decoration: none;
+  color: #2193b0;
+}
+
 .icon {
   display: flex;
   padding: 20px 0;
@@ -230,7 +277,7 @@ i {
 }
 
 .two-right {
-  width: 70%;
+  /* width: 70%; */
 }
 
 .two-right p {
@@ -245,6 +292,7 @@ i {
 
 .three-left {
   color: #fff;
+  text-align: justify;
 }
 
 .content {
@@ -262,6 +310,36 @@ i {
 .contact-us-btn:hover {
   background-color: #01d39b !important;
   color: #fff !important;
+}
+
+.service-btn {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+  font-size: 16px !important;
+}
+
+.service-btn:hover {
+  background-color: #fff !important;
+  border: 1px solid #fff !important;
+  color: #000 !important;
+  font-size: 16px !important;
+}
+
+.about-btn {
+  background-color: #157295 !important;
+  border: 1px solid #157295 !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+  font-size: 16px !important;
+}
+
+.about-btn:hover {
+  background-color: #fff !important;
+  border: 1px solid #157295 !important;
+  color: #157295 !important;
+  font-size: 16px !important;
 }
 /* end home css */
 
