@@ -146,7 +146,7 @@ i {
 .navbar .navbar-nav a {
   font-weight: 600 !important;
   color: #2d2d2d !important;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .navbar .navbar-nav a:hover {
@@ -159,18 +159,20 @@ i {
 }
 
 .wa-btn {
-  background-color: #075e54 !important;
-  color: #fff;
-  font-size: 11pt !important;
+  background-color: transparent !important;
+  color: #157295 !important;
+  font-size: 12pt !important;
   padding: 5px 10px !important;
+  font-weight: 600 !important;
 }
 
 .wa-btn i {
-  padding: 5px;
+  vertical-align: middle;
+  color: #157295;
+  font-size: 20pt !important;
+  font-weight: 600 !important;
 }
-.wa-btn:hover {
-  background-color: #25d366 !important;
-}
+
 .navbar .nav-link {
   font-weight: 600 !important;
   color: #000 !important;
@@ -242,7 +244,7 @@ i {
 }
 
 .two-right {
-  width: 70%;
+  /* width: 70%; */
 }
 
 .two-right p {
@@ -289,6 +291,21 @@ i {
   background-color: #fff !important;
   border: 0 transparent !important;
   color: #000 !important;
+  font-size: 16px !important;
+}
+
+.about-btn {
+  background-color: #157295 !important;
+  border: 1px solid #157295 !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+  font-size: 16px !important;
+}
+
+.about-btn:hover {
+  background-color: #fff !important;
+  border: 1px solid #157295 !important;
+  color: #157295 !important;
   font-size: 16px !important;
 }
 /* end home css */

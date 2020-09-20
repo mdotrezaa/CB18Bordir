@@ -64,7 +64,7 @@ export default class HomePage extends React.Component {
             </Col>
             <Col xs={12} md={6}>
               <div className="two-right">
-                <h2>Alasan Memilih Cahaya Baru 18?</h2>
+                <h2>Alasan Memilih Kami?</h2>
                 <p>
                   <b>Cahaya Baru 18</b> memberikan jaminan kualitas terbaik bagi
                   setiap pelanggan. Kami bekerja dengan tenaga - tenaga
@@ -74,6 +74,13 @@ export default class HomePage extends React.Component {
                   menjadi lebih baik dan lebih cepat dalam memproses setiap
                   permintaan pelanggan.
                 </p>
+                <br />
+                <Button
+                  className="btn-primary about-btn ml-right"
+                  variant="primary"
+                >
+                  Selengkapnya
+                </Button>
               </div>
             </Col>
           </Row>
