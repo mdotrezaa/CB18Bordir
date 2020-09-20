@@ -20,6 +20,7 @@ export default class HomePage extends React.Component {
                 <Button
                   className="btn-primary contact-us-btn"
                   variant="primary"
+                  href="/kontak-kami"
                 >
                   Hubungi Kami
                 </Button>
@@ -34,8 +35,8 @@ export default class HomePage extends React.Component {
                   <div className="icon-text">
                     <ul>
                       <li className="phone-title">Phone</li>
-                      <li className="phone">(+62) 856-1234-5678</li>
-                      <li className="phone">(+62) 856-1234-5678</li>
+                      <li className="phone">(+62) 812 12497533</li>
+                      <li className="phone">(+62) 817-6389-206</li>
                     </ul>
                   </div>
                 </div>
@@ -78,6 +79,7 @@ export default class HomePage extends React.Component {
                 <Button
                   className="btn-primary about-btn ml-right"
                   variant="primary"
+                  href="/tentang-kami"
                 >
                   Selengkapnya
                 </Button>
@@ -102,7 +104,11 @@ export default class HomePage extends React.Component {
                     pelayanan tersebut.
                   </p>
                   <br />
-                  <Button className="btn-primary service-btn" variant="primary">
+                  <Button
+                    className="btn-primary service-btn"
+                    variant="primary"
+                    href="/layanan"
+                  >
                     Layanan Kami
                   </Button>
                 </div>
