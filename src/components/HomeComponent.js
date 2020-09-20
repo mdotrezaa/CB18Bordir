@@ -25,7 +25,7 @@ export default class HomePage extends React.Component {
                   Hubungi Kami
                 </Button>
               </div>
-              <hr className="divider"></hr>
+              <div className="divider"></div>
               <div className="bottom-header">
                 <p>Hubungi Kontak Dibawah Ini Untuk Informasi Lebih Lanjut</p>
                 <div className="icon">
@@ -34,9 +34,12 @@ export default class HomePage extends React.Component {
                   </span>
                   <div className="icon-text">
                     <ul>
-                      <li className="phone-title">Phone</li>
-                      <li className="phone">(+62) 812 12497533</li>
-                      <li className="phone">(+62) 817-6389-206</li>
+                      <li className="phone">
+                        <a href="tel:6281212497533">(+62) 812-1249-7533</a>
+                      </li>
+                      <li className="phone">
+                        <a href="tel:628176389206">(+62) 817-6389-206</a>
+                      </li>
                     </ul>
                   </div>
                 </div>

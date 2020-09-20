@@ -68,6 +68,7 @@ h6 {
   border: #157295 !important;
   padding: 10px 24px !important;
   font-size: 14pt !important;
+  font-weight: 600 !important;
 }
 .btn-secondary {
   background-color: #fff !important;
@@ -94,18 +95,19 @@ h6 {
 .divider {
   margin: 40px auto;
   float: left;
-  width: 100%;
+  width: 80% !important;
+  border-top: 1px solid #2193b0;
 }
 .divider-1 {
   width: 40%;
   opacity: 0.1;
-  border-top: 1px solid #000;
+  border-top: 1px solid #2193b0;
   display: flex;
   margin: 0 auto;
   padding: 40px 0;
 }
 .bx-border-circle {
-  background: #2d2d2d;
+  background: #157295;
 }
 i {
   color: #fbfbfb;
@@ -118,6 +120,10 @@ i {
   background: #eee !important;
   border: none !important;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: none !important;
 }
 /* end general css */
 /* nav css */
@@ -214,6 +220,7 @@ i {
 }
 .sectionOneLeft div {
   width: 80%;
+  display: inline-block;
 }
 .sectionOneRight {
   margin: 8% 0;
@@ -223,8 +230,18 @@ i {
   font-size: 12px;
 }
 .bottom-header span {
-  margin: 30px 0;
+  margin: 5px 0;
 }
+
+.phone a {
+  color: #157295;
+}
+
+.phone a:hover {
+  text-decoration: none;
+  color: #2193b0;
+}
+
 .icon {
   display: flex;
   padding: 20px 0;
@@ -289,7 +306,7 @@ i {
 
 .service-btn:hover {
   background-color: #fff !important;
-  border: 0 transparent !important;
+  border: 1px solid #fff !important;
   color: #000 !important;
   font-size: 16px !important;
 }
