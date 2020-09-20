@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Card, Tabs, Tab } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default class ActivityPage extends  React.Component {
   render(){
@@ -21,100 +22,70 @@ export default class ActivityPage extends  React.Component {
                     <Tab eventKey="terbaru" title="Terbaru">
                         <Row>
                             <Col md={4} sm={12}>
-                            <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
+                            <Card className="center" style={{ width: '20rem' }}>
+                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
                                 <Card.Body>
+                                <Card.Text>20-09-2020</Card.Text>
                                 <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                    </Card.Text>
+                                    <Link>Selengkapnya</Link>
                                 </Card.Body>
-                                <Card.Footer>
-                                    <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
-                                </Card.Footer>
                             </Card>
                             </Col>
                             <Col md={4} sm={12}>
-                                <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
+                            <Card className="center" style={{ width: '20rem' }}>
+                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                    </Card.Text>
+                                <Card.Text>20-09-2020</Card.Text>
+                                <Card.Title>Card Title</Card.Title>
+                                    <Link>Selengkapnya</Link>
                                 </Card.Body>
-                                <Card.Footer>
-                                    <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
-                                </Card.Footer>
                             </Card>
                             </Col>
                             <Col md={4} sm={12}>
-                            <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
+                            <Card className="center" style={{ width: '20rem' }}>
+                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
                                 <Card.Body>
+                                <Card.Text>20-09-2020</Card.Text>
                                 <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                    </Card.Text>
+                                    <Link>Selengkapnya</Link>
                                 </Card.Body>
-                                <Card.Footer>
-                                    <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
-                                </Card.Footer>
                             </Card>
                             </Col>
                         </Row>
                     </Tab>
                     <Tab eventKey="populer" title="Terpopuler">
-                    <Row>
-                        <Col md={4} sm={12}>
-                        <Card style={{ width: '20rem' }}>
-                            <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
-                            <Card.Body>
+                        <Row>
+                            <Col md={4} sm={12}>
+                            <Card className="center" style={{ width: '20rem' }}>
+                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
+                                <Card.Body>
+                                <Card.Text>20-09-2020</Card.Text>
                                 <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
-                            </Card.Footer>
-                        </Card>
-                        </Col>
-                        <Col md={4} sm={12}>
-                            <Card style={{ width: '20rem' }}>
-                            <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                    </Card.Text>
+                                    <Link>Selengkapnya</Link>
                                 </Card.Body>
-                                <Card.Footer>
-                                    <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
-                                </Card.Footer>
-                        </Card>
-                        </Col>
-                        <Col md={4} sm={12}>
-                        <Card style={{ width: '20rem' }}>
-                            <Card.Img variant="top" src={require("../assets/images/placeholder.png")} />
-                            <Card.Body>
+                            </Card>
+                            </Col>
+                            <Col md={4} sm={12}>
+                            <Card className="center" style={{ width: '20rem' }}>
+                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
+                                <Card.Body>
+                                <Card.Text>20-09-2020</Card.Text>
                                 <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <Button style={{ width: '100%' }}  className="btn-primary">Go somewhere</Button>
-                            </Card.Footer>
-                        </Card>
-                        </Col>
-                    </Row>
+                                    <Link>Selengkapnya</Link>
+                                </Card.Body>
+                            </Card>
+                            </Col>
+                            <Col md={4} sm={12}>
+                            <Card className="center" style={{ width: '20rem' }}>
+                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
+                                <Card.Body>
+                                <Card.Text>20-09-2020</Card.Text>
+                                <Card.Title>Card Title</Card.Title>
+                                    <Link>Selengkapnya</Link>
+                                </Card.Body>
+                            </Card>
+                            </Col>
+                        </Row>
                     </Tab>
                 </Tabs>
             </Container>

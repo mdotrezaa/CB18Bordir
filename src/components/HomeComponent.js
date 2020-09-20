@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Button, Image, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default class HomePage extends React.Component {
   render() {
@@ -126,10 +127,56 @@ export default class HomePage extends React.Component {
               </Col>
             </Row>
           </Container>
+          <div class="overlay"></div>
         </div>
-        <div className="section-four">
+        <div className="activity">
+            <Container>
+                <h2 className="center">Aktivitas Terbaru Kami</h2>
+              <Row>
+                <Col md={4} sm={12}>
+                  <Card className="center" style={{ width: '20rem' }}>
+                    <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
+                    <Card.Body>
+                      <Card.Text>20-09-2020</Card.Text>
+                      <Card.Title>Card Title</Card.Title>
+                        <Link>Selengkapnya</Link>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col md={4} sm={12}>
+                  <Card className="center" style={{ width: '20rem' }}>
+                    <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
+                    <Card.Body>
+                      <Card.Text>20-09-2020</Card.Text>
+                      <Card.Title>Card Title</Card.Title>
+                        <Link>Selengkapnya</Link>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col md={4} sm={12}>
+                  <Card className="center" style={{ width: '20rem' }}>
+                    <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
+                    <Card.Body>
+                      <Card.Text>20-09-2020</Card.Text>
+                      <Card.Title>Card Title</Card.Title>
+                        <Link>Selengkapnya</Link>
+                    </Card.Body>
+                  </Card>
+                </Col>
+
+              </Row>
+              <Row>
+                <Col>
+                  <Link to="/aktivitas" className="more-link">Selengkapnya<i class='bx bxs-chevrons-right bx-sm bx-fw'></i></Link>
+                </Col>
+              </Row>
+            </Container>
+        </div>
+        <div className="divider-1"></div>
+
+        <div className="client">
           <Container>
-            <h2 className="center">Our Partners</h2>
+            <h2 className="center">Client Kami</h2>
             <section className="customer-logos slider">
               <div className="slide">
                 <img src={require("../assets/images/dishub.png")} alt="1" />
