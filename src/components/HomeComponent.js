@@ -132,52 +132,22 @@ export default class HomePage extends React.Component {
             <h2 className="center">Our Partners</h2>
             <section className="customer-logos slider">
               <div className="slide">
-                <img
-                  src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
-                  alt="1"
-                />
+                <img src={require("../assets/images/dishub.png")} alt="1" />
+              </div>
+              <div className="slide">
+                <img src={require("../assets/images/jamkrindo.png")} alt="2" />
               </div>
               <div className="slide">
                 <img
-                  src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"
-                  alt="2"
-                />
-              </div>
-              <div className="slide">
-                <img
-                  src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"
+                  src={require("../assets/images/kementriantng.png")}
                   alt="3"
                 />
               </div>
               <div className="slide">
-                <img
-                  src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"
-                  alt="4"
-                />
+                <img src={require("../assets/images/pelni.png")} alt="4" />
               </div>
               <div className="slide">
-                <img
-                  src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"
-                  alt="5"
-                />
-              </div>
-              <div className="slide">
-                <img
-                  src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"
-                  alt="6"
-                />
-              </div>
-              <div className="slide">
-                <img
-                  src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"
-                  alt="7"
-                />
-              </div>
-              <div className="slide">
-                <img
-                  src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"
-                  alt="8"
-                />
+                <img src={require("../assets/images/nielson.png")} alt="5" />
               </div>
             </section>
           </Container>
