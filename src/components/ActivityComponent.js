@@ -10,8 +10,9 @@ export default class ActivityPage extends  React.Component {
           <Container>
             <Row>
               <Col>
-                  <h1 className="center">Aktivitas Kami.</h1>
-                  <h5 className="center">"Some quick example text to build on the card title and make up the bulk of the card's content."</h5>
+                    <h1 className="center">Aktivitas Kami.</h1>
+                    <div className="divider"></div>
+                    <h5 className="center">"Some quick example text to build on the card title and make up the bulk of the card's content."</h5>
               </Col>
             </Row>
           </Container> 

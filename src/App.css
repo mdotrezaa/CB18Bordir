@@ -70,6 +70,14 @@ h6 {
   font-size: 14pt !important;
   font-weight: 600 !important;
 }
+.btn-primary:hover {
+  background-color: #fff !important;
+  border: #157295 !important;
+  color: #157295;
+  padding: 10px 24px !important;
+  font-size: 14pt !important;
+  font-weight: 600 !important;
+}
 .btn-secondary {
   background-color: #fff !important;
   color: #157295 !important;
@@ -367,11 +375,11 @@ i {
   border-radius: 20px !important;
   color: #fff !important;
   font-size: 16px !important;
-  margin: 50px 0;
+  display: table;
+  margin: 30px auto;
 }
 
 .more-link:hover {
-  text-decoration: none;
   background-color: #fff !important;
   border: 1px solid #157295 !important;
   color: #157295 !important;
@@ -437,6 +445,14 @@ i {
 /* end service */
 
 /* aktivitas */
+
+.aktivitas-page .divider{
+  margin: 0 auto 20px auto;
+  float: none;
+  width: 5% !important;
+  opacity: 0.5;
+  border-top: 5px solid #2193b0;
+}
 .nav-tabs {
   display: flex;
   justify-content: center;
@@ -464,6 +480,16 @@ i {
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   color: #fff;
+}
+.kontak-page{
+  margin: 30px 0;
+}
+.kontak-page .divider{
+  margin: 0 auto 20px auto;
+  float: none;
+  width: 5% !important;
+  opacity: 0.5;
+  border-top: 5px solid #2193b0;
 }
 .kontak-page h5 {
   opacity: 0.5;
@@ -496,9 +522,17 @@ i {
 }
 .form-kontak .btn-primary {
   background-color: #157295 !important;
-  border: #157295 !important;
+  border: #157295 1px solid !important;
   padding: 5px 30px !important;
   font-size: 14pt !important;
+}
+
+.form-kontak .btn-primary:hover {
+  background-color: #fff !important;
+  border: #157295 1px solid !important;
+  padding: 5px 30px !important;
+  font-size: 14pt !important;
+  color: #157295;
 }
 .maps {
   margin: 50px 0 0 0;
