@@ -130,53 +130,67 @@ export default class HomePage extends React.Component {
           <div class="overlay"></div>
         </div>
         <div className="activity">
-            <Container>
-                <h2 className="center">Aktivitas Terbaru Kami</h2>
-              <Row>
-                <Col md={4} sm={12}>
-                  <Card className="center" style={{ width: '20rem' }}>
-                    <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                    <Card.Body>
-                      <Card.Text>20-09-2020</Card.Text>
-                      <Card.Title>Card Title</Card.Title>
-                        <Link>Selengkapnya</Link>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col md={4} sm={12}>
-                  <Card className="center" style={{ width: '20rem' }}>
-                    <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                    <Card.Body>
-                      <Card.Text>20-09-2020</Card.Text>
-                      <Card.Title>Card Title</Card.Title>
-                        <Link>Selengkapnya</Link>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col md={4} sm={12}>
-                  <Card className="center" style={{ width: '20rem' }}>
-                    <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                    <Card.Body>
-                      <Card.Text>20-09-2020</Card.Text>
-                      <Card.Title>Card Title</Card.Title>
-                        <Link>Selengkapnya</Link>
-                    </Card.Body>
-                  </Card>
-                </Col>
-
-              </Row>
-              <Row>
-                <Col>
-                  <Link to="/aktivitas" className="more-link">Selengkapnya<i class='bx bxs-chevrons-right bx-sm bx-fw'></i></Link>
-                </Col>
-              </Row>
-            </Container>
+          <Container>
+            <h2 className="center">Aktivitas Terbaru</h2>
+            <div className="divider"></div>
+            <Row>
+              <Col md={4} sm={12}>
+                <Card className="center" style={{ width: "20rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src={require("../assets/images/slide1.jpg")}
+                  />
+                  <Card.Body>
+                    <Card.Text>20-09-2020</Card.Text>
+                    <Card.Title>Penambahan Mesin Bordir Baru</Card.Title>
+                    <Link>Selengkapnya</Link>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={4} sm={12}>
+                <Card className="center" style={{ width: "20rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src={require("../assets/images/slide1.jpg")}
+                  />
+                  <Card.Body>
+                    <Card.Text>20-09-2020</Card.Text>
+                    <Card.Title>Pembukaan Outlet Cabang</Card.Title>
+                    <Link>Selengkapnya</Link>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={4} sm={12}>
+                <Card className="center" style={{ width: "20rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src={require("../assets/images/slide1.jpg")}
+                  />
+                  <Card.Body>
+                    <Card.Text>20-09-2020</Card.Text>
+                    <Card.Title>
+                      Proyek Bordir Kementerian Ketenagakerjaan RI
+                    </Card.Title>
+                    <Link>Selengkapnya</Link>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <Link to="/aktivitas" className="btn-primary more-link">
+                  Selengkapnya
+                </Link>
+              </Col>
+            </Row>
+          </Container>
         </div>
         <div className="divider-1"></div>
 
         <div className="client">
           <Container>
-            <h2 className="center">Client Kami</h2>
+            <h2 className="center">Klien Kami</h2>
+            <div className="divider"></div>
             <section className="customer-logos slider">
               <div className="slide">
                 <img src={require("../assets/images/dishub.png")} alt="1" />
