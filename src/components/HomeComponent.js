@@ -135,43 +135,43 @@ export default class HomePage extends React.Component {
             <div className="divider"></div>
             <Row>
               <Col md={4} sm={12}>
-                <Card className="center" style={{ width: "20rem" }}>
+                <Card className="center">
                   <Card.Img
                     variant="top"
                     src={require("../assets/images/slide1.jpg")}
                   />
                   <Card.Body>
-                    <Card.Text>20-09-2020</Card.Text>
+                    <Card.Text>20/09/2020</Card.Text>
                     <Card.Title>Penambahan Mesin Bordir Baru</Card.Title>
-                    <Link>Selengkapnya</Link>
+                    <Link>Baca</Link>
                   </Card.Body>
                 </Card>
               </Col>
               <Col md={4} sm={12}>
-                <Card className="center" style={{ width: "20rem" }}>
+                <Card className="center">
                   <Card.Img
                     variant="top"
-                    src={require("../assets/images/slide1.jpg")}
+                    src={require("../assets/images/store.jpg")}
                   />
                   <Card.Body>
-                    <Card.Text>20-09-2020</Card.Text>
+                    <Card.Text>20/09/2020</Card.Text>
                     <Card.Title>Pembukaan Outlet Cabang</Card.Title>
-                    <Link>Selengkapnya</Link>
+                    <Link>Baca</Link>
                   </Card.Body>
                 </Card>
               </Col>
               <Col md={4} sm={12}>
-                <Card className="center" style={{ width: "20rem" }}>
+                <Card className="center">
                   <Card.Img
                     variant="top"
-                    src={require("../assets/images/slide1.jpg")}
+                    src={require("../assets/images/kemnaker-img.jpg")}
                   />
                   <Card.Body>
-                    <Card.Text>20-09-2020</Card.Text>
+                    <Card.Text>20/09/2020</Card.Text>
                     <Card.Title>
                       Proyek Bordir Kementerian Ketenagakerjaan RI
                     </Card.Title>
-                    <Link>Selengkapnya</Link>
+                    <Link>Baca</Link>
                   </Card.Body>
                 </Card>
               </Col>
