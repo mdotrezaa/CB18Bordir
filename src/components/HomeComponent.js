@@ -56,6 +56,40 @@ export default class HomePage extends React.Component {
             </Col>
           </Row>
         </Container>
+        <Container>
+          <Row className="section-count">
+            <Col xs={12} md={4} className="center">
+              <div class="skill-list">
+                <div class="skill-count">
+                  <span class="count">9</span>
+                </div>
+                <div class="skill-name">
+                  <h4>Toko Cabang</h4>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={4} className="center">
+              <div class="skill-list">
+                <div class="skill-count">
+                  <span class="count">6000+</span>
+                </div>
+                <div class="skill-name">
+                  <h4>Produk Selesai</h4>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={4} className="center">
+              <div class="skill-list">
+                <div class="skill-count">
+                  <span class="count">25+</span>
+                </div>
+                <div class="skill-name">
+                  <h4>Karyawan</h4>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
         <div className="divider-1"></div>
         <Container>
           <Row className="section-two">
