@@ -191,26 +191,38 @@ export default class HomePage extends React.Component {
           <Container>
             <h2 className="center">Klien Kami</h2>
             <div className="divider"></div>
-            <section className="customer-logos slider">
-              <div className="slide">
-                <img src={require("../assets/images/dishub.png")} alt="1" />
-              </div>
-              <div className="slide">
-                <img src={require("../assets/images/jamkrindo.png")} alt="2" />
-              </div>
-              <div className="slide">
-                <img
-                  src={require("../assets/images/kementriantng.png")}
-                  alt="3"
-                />
-              </div>
-              <div className="slide">
-                <img src={require("../assets/images/pelni.png")} alt="4" />
-              </div>
-              <div className="slide">
-                <img src={require("../assets/images/nielson.png")} alt="5" />
-              </div>
-            </section>
+                <Row>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/polda.png")}/>   
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/dishub.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/jamkrindo.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/kementriantng.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/mobil.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/epson.png")}/>   
+                    </div>
+                  </Col>
+                </Row>
           </Container>
         </div>
       </div>
