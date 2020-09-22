@@ -32,6 +32,76 @@ export default class AboutPage extends  React.Component {
             </div>
           </Container> 
         </div>
+        <div className="client">
+          <Container>
+            <h2 className="center">Klien Kami</h2>
+            <div className="divider"></div>
+                <Row>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/polda.png")}/>   
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/dishub.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/jamkrindo.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/kementriantng.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/mobil.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/epson.png")}/>   
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/nielson.png")}/>   
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/mitratel.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/mobil.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/atrbpn.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                        <Image src={require("../assets/images/pelni.png")}/>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div className="client-col">
+                      <Image src={require("../assets/images/epson.png")}/>   
+                    </div>
+                  </Col>
+                </Row>
+          </Container>
+        </div>
         <div className="activity">
             <Container>
                 <h2 className="center">Aktivitas Terbaru Kami</h2>

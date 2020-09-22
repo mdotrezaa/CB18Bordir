@@ -20,38 +20,7 @@ export default class ContactPage extends  React.Component {
             </div>
             <Container className="kontak-page">
             <Row>
-                <Col md={4}>
-                <div className="kontak">
-                  <h4>Contact Information</h4>
-                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <ul>
-                        <li>
-                            <i class='bx bxs-map bx-xs bx-border-circle'></i>
-                            <span>
-                            Some quick example text to build on the card
-                            </span>
-                        </li>
-                        <li>
-                            <i class='bx bxs-phone bx-xs bx-border-circle'></i>
-                            <span>
-                           (+62)859-123-5554
-                            </span>
-                        </li>
-                        <li>
-                        <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
-                          <span>
-                            mail@mail.id<p></p>
-                          </span>
-                        </li>
-                        <li className="socmed">
-                          <a href=""><i class='bx bxl-facebook bx-xs bx-border-circle'></i></a>
-                          <a href=""><i class='bx bxl-twitter bx-xs bx-border-circle'></i></a>
-                          <a href=""><i class='bx bxl-instagram bx-xs bx-border-circle'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                </Col>
-                <Col>
+            <Col>
                   <Form className="form-kontak">
                     <Form.Row>
                       <Col>
@@ -92,6 +61,204 @@ export default class ContactPage extends  React.Component {
                     </Form.Row>
                     <Button className="btn-primary">Send</Button>
                   </Form>
+                </Col>
+                <Col md={6}>
+                <div className="kontak">
+                  <h4>Contact Information</h4>
+                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <Row>
+                      <Col md={6}>
+                      <h6>Contact Information</h6>
+                      <ul>
+                        <li>
+                            <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                            <span>
+                            Some quick example text to build on the card
+                            </span>
+                        </li>
+                        <li>
+                            <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                            <span>
+                           (+62)859-123-5554
+                            </span>
+                        </li>
+                        <li>
+                        <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                          <span>
+                            mail@mail.id<p></p>
+                          </span>
+                        </li>
+                      </ul>
+                      </Col>
+                      <Col md={6}>
+                        <h6>Contact Information</h6>
+                        <ul>
+                          <li>
+                              <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                              <span>
+                              Some quick example text to build on the card
+                              </span>
+                          </li>
+                          <li>
+                              <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                              <span>
+                            (+62)859-123-5554
+                              </span>
+                          </li>
+                          <li>
+                          <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                            <span>
+                              mail@mail.id<p></p>
+                            </span>
+                          </li>
+                        </ul>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md={6}>
+                      <h6>Contact Information</h6>
+                      <ul>
+                        <li>
+                            <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                            <span>
+                            Some quick example text to build on the card
+                            </span>
+                        </li>
+                        <li>
+                            <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                            <span>
+                           (+62)859-123-5554
+                            </span>
+                        </li>
+                        <li>
+                        <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                          <span>
+                            mail@mail.id<p></p>
+                          </span>
+                        </li>
+                      </ul>
+                      </Col>
+                      <Col md={6}>
+                        <h6>Contact Information</h6>
+                        <ul>
+                          <li>
+                              <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                              <span>
+                              Some quick example text to build on the card
+                              </span>
+                          </li>
+                          <li>
+                              <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                              <span>
+                            (+62)859-123-5554
+                              </span>
+                          </li>
+                          <li>
+                          <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                            <span>
+                              mail@mail.id<p></p>
+                            </span>
+                          </li>
+                        </ul>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md={6}>
+                      <h6>Contact Information</h6>
+                      <ul>
+                        <li>
+                            <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                            <span>
+                            Some quick example text to build on the card
+                            </span>
+                        </li>
+                        <li>
+                            <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                            <span>
+                           (+62)859-123-5554
+                            </span>
+                        </li>
+                        <li>
+                        <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                          <span>
+                            mail@mail.id<p></p>
+                          </span>
+                        </li>
+                      </ul>
+                      </Col>
+                      <Col md={6}>
+                        <h6>Contact Information</h6>
+                        <ul>
+                          <li>
+                              <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                              <span>
+                              Some quick example text to build on the card
+                              </span>
+                          </li>
+                          <li>
+                              <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                              <span>
+                            (+62)859-123-5554
+                              </span>
+                          </li>
+                          <li>
+                          <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                            <span>
+                              mail@mail.id<p></p>
+                            </span>
+                          </li>
+                        </ul>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md={6}>
+                      <h6>Contact Information</h6>
+                      <ul>
+                        <li>
+                            <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                            <span>
+                            Some quick example text to build on the card
+                            </span>
+                        </li>
+                        <li>
+                            <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                            <span>
+                           (+62)859-123-5554
+                            </span>
+                        </li>
+                        <li>
+                        <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                          <span>
+                            mail@mail.id<p></p>
+                          </span>
+                        </li>
+                      </ul>
+                      </Col>
+                      <Col md={6}>
+                        <h6>Contact Information</h6>
+                        <ul>
+                          <li>
+                              <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                              <span>
+                              Some quick example text to build on the card
+                              </span>
+                          </li>
+                          <li>
+                              <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                              <span>
+                            (+62)859-123-5554
+                              </span>
+                          </li>
+                          <li>
+                          <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                            <span>
+                              mail@mail.id<p></p>
+                            </span>
+                          </li>
+                        </ul>
+                      </Col>
+                    </Row>
+                </div>
                 </Col>
             </Row>
           </Container> 

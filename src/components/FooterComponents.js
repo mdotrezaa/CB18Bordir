@@ -6,14 +6,14 @@ const FooterComponent = (props) => {
     <div className="footer">
       <Container>
         <Row>
-          <Col>
+          <Col md={3}>
             <Image
               width="50%"
               className="center-img"
               src={require("../assets/images/logo.png")}
             />
           </Col>
-          <Col>
+          <Col md={4}>
             <h5>Tentang Kami</h5>
             <ul>
               <li Style="text-align: justify;">
@@ -24,7 +24,7 @@ const FooterComponent = (props) => {
               </li>
             </ul>
           </Col>
-          <Col>
+          <Col md={2} xs={6}>
             <h5>Navigasi</h5>
             <ul>
               <li>
@@ -44,7 +44,7 @@ const FooterComponent = (props) => {
               </li>
             </ul>
           </Col>
-          <Col>
+          <Col md={3} xs={6}>
             <h5>Hubungi Kami</h5>
             <ul>
               <li>Tentang kami</li>
