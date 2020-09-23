@@ -12,6 +12,7 @@ export default class HomePage extends React.Component {
             <Col xs={12} md={6} className="sectionOneLeft">
               <div>
                 <h2>BORDIR KOMPUTER</h2>
+                <div className="divider-title left"></div>
                 <p>
                   Jasa Bordir Komputer Dengan Mengedepankan Kepuasan Pelanggan
                   Dengan Memberi Jaminan Pengerjaan Cepat Yang Dilakukan Oleh
@@ -62,12 +63,13 @@ export default class HomePage extends React.Component {
             <Col xs={12} md={4} className="center">
               <div class="skill-list">
                 <div class="skill-count">
-                <CountUp className="count"
-                  start={0}
-                  end={9}
-                  delay={1}
-                  duration={3.75}
-                />
+                  <CountUp
+                    className="count"
+                    start={0}
+                    end={9}
+                    delay={1}
+                    duration={3.75}
+                  />
                 </div>
                 <div class="skill-name">
                   <h4>Toko Cabang</h4>
@@ -76,16 +78,15 @@ export default class HomePage extends React.Component {
             </Col>
             <Col xs={12} md={4} className="center">
               <div class="skill-list">
-              <div class="skill-count">
-                <CountUp className="count"
-                  start={0}
-                  end={6000}
-                  delay={1}
-                  duration={3.75}
-                  suffix="+"
-                >
-                </CountUp>
-
+                <div class="skill-count">
+                  <CountUp
+                    className="count"
+                    start={0}
+                    end={6000}
+                    delay={1}
+                    duration={3.75}
+                    suffix="+"
+                  ></CountUp>
                 </div>
                 <div class="skill-name">
                   <h4>Produk Selesai</h4>
@@ -94,8 +95,9 @@ export default class HomePage extends React.Component {
             </Col>
             <Col xs={12} md={4} className="center">
               <div class="skill-list">
-                <div class="skill-count"> 
-                  <CountUp className="count"
+                <div class="skill-count">
+                  <CountUp
+                    className="count"
                     start={0}
                     end={25}
                     delay={1}
@@ -124,6 +126,7 @@ export default class HomePage extends React.Component {
             <Col xs={12} md={6}>
               <div className="two-right">
                 <h2>Alasan Memilih Kami?</h2>
+                <div className="divider-title left"></div>
                 <p>
                   <b>Cahaya Baru 18</b> memberikan jaminan kualitas terbaik bagi
                   setiap pelanggan. Kami bekerja dengan tenaga - tenaga
@@ -151,6 +154,7 @@ export default class HomePage extends React.Component {
               <Col xs={12} md={6}>
                 <div className="three-left">
                   <h2>Apa Yang Kami Tawarkan?</h2>
+                  <div className="divider-title left white"></div>
                   <p>
                     Kami menawarkan jasa bordir dengan teknologi komputer, yang
                     dapat menghasilkan produk - produk berkualitas dalam waktu
@@ -186,7 +190,7 @@ export default class HomePage extends React.Component {
         <div className="activity">
           <Container>
             <h2 className="center">Aktivitas Terbaru</h2>
-            <div className="divider"></div>
+            <div className="divider-title"></div>
             <Row>
               <Col md={4} sm={12}>
                 <Card className="center">

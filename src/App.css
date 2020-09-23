@@ -46,7 +46,7 @@ h2,
 h3 {
   font-weight: 700 !important;
   line-height: 1.5em !important;
-  padding: 1.5rem 0;
+  /* padding: 1.5rem 0; */
 }
 h4,
 h5,
@@ -63,7 +63,6 @@ h6 {
 .center-img {
   display: flex;
   margin: 0 auto;
-  width: 100%;
 }
 .btn-primary {
   background-color: #157295 !important;
@@ -176,6 +175,22 @@ i {
 .btn-primary.focus,
 .btn-primary:focus {
   box-shadow: none !important;
+}
+
+.divider-title {
+  margin: 0 auto 50px auto;
+  float: none;
+  width: 100px !important;
+  opacity: 0.5;
+  border-top: 5px solid #2193b0;
+}
+
+.divider-title.left {
+  margin: 15px 0;
+}
+
+.divider-title.left.white {
+  border-top: 5px solid #fff;
 }
 /* end general css */
 /* nav css */
@@ -685,6 +700,7 @@ i {
 .footer h5 {
   color: #157295;
   font-style: normal !important;
+  padding: 0 !important;
 }
 .footer li,
 .footer a {
@@ -706,6 +722,10 @@ i {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.footer-img img {
+  width: 100%;
 }
 
 .footer-contact ul .ig a:hover {
