@@ -6,58 +6,51 @@ const FooterComponent = (props) => {
     <div className="footer">
       <Container>
         <Row>
-          <Col md={3}>
-            <Image
-              width="50%"
-              className="center-img"
-              src={require("../assets/images/logo.png")}
-            />
-          </Col>
           <Col md={4}>
-            <h5>Tentang Kami</h5>
-            <ul>
-              <li Style="text-align: justify;">
-                Cahaya Baru 18 berdiri sejak tahun 2015 di Blok M Square
-                Melawai, Kebayoran Baru, Jakarta Selatan. Menyediakan layanan
-                Bordir, Sablon dan Koveksi dengan didukung teknologi dan tenaga
-                profesional.
-              </li>
-            </ul>
+            <div className="footer-img">
+              <Image
+                className="center-img"
+                src={require("../assets/images/logo.png")}
+              />
+            </div>
           </Col>
-          <Col md={2} xs={6}>
-            <h5>Navigasi</h5>
-            <ul>
-              <li>
-                <a href="/">Beranda</a>
-              </li>
-              <li>
-                <a href="/tentang-kami">Tentang Kami</a>
-              </li>
-              <li>
-                <a href="/layanan">Layanan</a>
-              </li>
-              <li>
-                <a href="/aktivitas">Aktivitas</a>
-              </li>
-              <li>
-                <a href="/kontak-kami">Kontak Kami</a>
-              </li>
-            </ul>
-          </Col>
-          <Col md={3} xs={6}>
-            <h5>Hubungi Kami</h5>
-            <ul>
-              <li>Tentang kami</li>
-              <li>Tentang kami</li>
-              <li className="socmed">
-                <i class="bx bxl-facebook bx-xs bx-border-circle"></i>
-                <i class="bx bxl-twitter bx-xs bx-border-circle"></i>
-                <i class="bx bxl-instagram bx-xs bx-border-circle"></i>
-              </li>
-            </ul>
+          <Col md={4} xs={6}>
+            <div className="footer-contact">
+              <h5>Hubungi Kami</h5>
+              <ul>
+                <li className="phone">
+                  <a href="tel:6281212497533">(+62) 812-1249-7533</a>
+                </li>
+                <li className="phone">
+                  <a href="tel:628176389206">(+62) 817-6389-206</a>
+                </li>
+                <li className="ig">
+                  <a
+                    href="https://www.instagram.com/heru_nugriyanto/?hl=id"
+                    target="blank"
+                  >
+                    IG: @heru_nugriyanto
+                  </a>
+                </li>
+                <li>
+                  Blok M Square Lt Basement,
+                  <ul>
+                    <li className="address-child">
+                      Blok D No 126, 035, 088, 176, 118
+                    </li>
+                    <li className="address-child">Blok E No 128, 96, 135</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </Col>
         </Row>
       </Container>
+      <div className="copyright">
+        <p Style="text-align: center;">
+          Copyright&nbsp; © 2020 Cahaya Baru 18. All Right Reserved
+        </p>
+      </div>
     </div>
   );
 };
