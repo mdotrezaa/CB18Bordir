@@ -6,7 +6,7 @@ const FooterComponent = (props) => {
     <div className="footer">
       <Container>
         <Row>
-          <Col md={4}>
+          <Col md={4} xs={12}>
             <div className="footer-img">
               <Image
                 className="center-img"
@@ -14,7 +14,7 @@ const FooterComponent = (props) => {
               />
             </div>
           </Col>
-          <Col md={4} xs={6}>
+          <Col md={4} xs={12}>
             <div className="footer-contact">
               <h5>Hubungi Kami</h5>
               <ul>
@@ -33,15 +33,34 @@ const FooterComponent = (props) => {
                   </a>
                 </li>
                 <li>
-                  Blok M Square Lt Basement,
-                  <ul>
-                    <li className="address-child">
-                      Blok D No 126, 035, 088, 176, 118
-                    </li>
-                    <li className="address-child">Blok E No 128, 96, 135</li>
-                  </ul>
+                  <a
+                    className="footer-address"
+                    href="https://goo.gl/maps/StxJf4UWUazrGY3h9"
+                    target="blank"
+                  >
+                    Blok M Square Lt Basement,
+                    <ul>
+                      <li className="address-child">
+                        Blok D No 126, 035, 088, 176, 118
+                      </li>
+                      <li className="address-child">Blok E No 128, 96, 135</li>
+                    </ul>
+                  </a>
                 </li>
               </ul>
+            </div>
+          </Col>
+          <Col md={4} xs={12}>
+            <div className="footer-subscribe">
+              <h5>Lokasi</h5>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1426704457717!2d106.79798231476191!3d-6.244921995479634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f16e9ffbc599%3A0xe4f891348e1a7d06!2sCahaya%20Baru%2018!5e0!3m2!1sid!2sid!4v1600860468023!5m2!1sid!2sid"
+                frameborder="0"
+                Style="border:0;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
             </div>
           </Col>
         </Row>

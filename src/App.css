@@ -661,13 +661,13 @@ i {
   object-fit: cover;
   background-position: top;
 }
-.top-text{
+.top-text {
   margin: 50px 0;
 }
-.top-text h5{
+.top-text h5 {
   opacity: 0.5;
 }
-.body-text{
+.body-text {
   margin: 50px 0;
 }
 /* end post */
@@ -708,6 +708,20 @@ i {
   transform: translate(-50%, -50%);
 }
 
+.footer-contact ul .ig a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-address {
+  text-decoration: none;
+}
+
+.footer-address:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .copyright {
   padding: 20px 0;
   color: #999;
@@ -725,5 +739,9 @@ i {
   font-weight: 600;
   list-style-type: circle;
   list-style-position: inside;
+}
+
+.footer-subscribe iframe {
+  width: 100%;
 }
 /* end footer */
