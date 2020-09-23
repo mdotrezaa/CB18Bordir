@@ -11,6 +11,7 @@ import AboutPage from "./components/AboutComponent";
 import ServicePage from "./components/ServiceComponent";
 import ActivityPage from "./components/ActivityComponent";
 import ContactPage from "./components/ContactComponent";
+import PostPage from "./components/PostComponent";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
             <Route exact path="/" component={HomeComponent}/>
             <Route path="/tentang-kami" component={AboutPage}/>
             <Route path="/layanan" component={ServicePage}/>
-            <Route path="/aktivitas" component={ActivityPage}/>
+            <Route exact path="/aktivitas" component={ActivityPage}/>
+            <Route path="/aktivitas/post" component={PostPage}/>
             <Route path="/kontak-kami" component={ContactPage}/>
           </Switch>
           <FooterComponent/>

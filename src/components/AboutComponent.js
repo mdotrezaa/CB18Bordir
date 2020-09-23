@@ -9,7 +9,7 @@ export default class AboutPage extends  React.Component {
         <div className="section-one about-page bg">
           <Container>
             <Row>
-              <Col>
+              <Col className="hide-on-med">
                   <Image className="img-responsive" src={require("../assets/images/about-page.png")} />
               </Col>
               <Col>
@@ -37,66 +37,56 @@ export default class AboutPage extends  React.Component {
             <h2 className="center">Klien Kami</h2>
             <div className="divider"></div>
                 <Row>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                       <Image src={require("../assets/images/polda.png")}/>   
                     </div>
                   </Col>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                       <Image src={require("../assets/images/dishub.png")}/>
                     </div>
                   </Col>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                         <Image src={require("../assets/images/jamkrindo.png")}/>
                     </div>
                   </Col>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                         <Image src={require("../assets/images/kementriantng.png")}/>
                     </div>
                   </Col>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                         <Image src={require("../assets/images/mobil.png")}/>
                     </div>
                   </Col>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                       <Image src={require("../assets/images/epson.png")}/>   
                     </div>
                   </Col>
                 </Row>
                 <Row>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                       <Image src={require("../assets/images/nielson.png")}/>   
                     </div>
                   </Col>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                       <Image src={require("../assets/images/mitratel.png")}/>
                     </div>
                   </Col>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                         <Image src={require("../assets/images/mobil.png")}/>
                     </div>
                   </Col>
-                  <Col>
+                  <Col md={2} xs={6}>
                     <div className="client-col">
                         <Image src={require("../assets/images/atrbpn.png")}/>
-                    </div>
-                  </Col>
-                  <Col>
-                    <div className="client-col">
-                        <Image src={require("../assets/images/pelni.png")}/>
-                    </div>
-                  </Col>
-                  <Col>
-                    <div className="client-col">
-                      <Image src={require("../assets/images/epson.png")}/>   
                     </div>
                   </Col>
                 </Row>
