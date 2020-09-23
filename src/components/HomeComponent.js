@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Image, Card } from "react-bootstrap";
+import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
 export default class HomePage extends React.Component {
@@ -61,7 +62,12 @@ export default class HomePage extends React.Component {
             <Col xs={12} md={4} className="center">
               <div class="skill-list">
                 <div class="skill-count">
-                  <span class="count">9</span>
+                <CountUp className="count"
+                  start={0}
+                  end={9}
+                  delay={1}
+                  duration={3.75}
+                />
                 </div>
                 <div class="skill-name">
                   <h4>Toko Cabang</h4>
@@ -70,8 +76,16 @@ export default class HomePage extends React.Component {
             </Col>
             <Col xs={12} md={4} className="center">
               <div class="skill-list">
-                <div class="skill-count">
-                  <span class="count">6000+</span>
+              <div class="skill-count">
+                <CountUp className="count"
+                  start={0}
+                  end={6000}
+                  delay={1}
+                  duration={3.75}
+                  suffix="+"
+                >
+                </CountUp>
+
                 </div>
                 <div class="skill-name">
                   <h4>Produk Selesai</h4>
@@ -80,8 +94,14 @@ export default class HomePage extends React.Component {
             </Col>
             <Col xs={12} md={4} className="center">
               <div class="skill-list">
-                <div class="skill-count">
-                  <span class="count">25+</span>
+                <div class="skill-count"> 
+                  <CountUp className="count"
+                    start={0}
+                    end={25}
+                    delay={1}
+                    duration={3.75}
+                    suffix="+"
+                  />
                 </div>
                 <div class="skill-name">
                   <h4>Karyawan</h4>
@@ -177,7 +197,7 @@ export default class HomePage extends React.Component {
                   <Card.Body>
                     <Card.Text>20/09/2020</Card.Text>
                     <Card.Title>Penambahan Mesin Bordir Baru</Card.Title>
-                    <Link>Baca</Link>
+                    <Link to="/aktivitas/post">Baca</Link>
                   </Card.Body>
                 </Card>
               </Col>
