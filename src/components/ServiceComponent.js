@@ -1,80 +1,52 @@
-import React from "react";
-import { Container, Row, Col, Image, Card, ListGroup } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col, Image, Card, ListGroup, Button, Collapse, Accordion } from "react-bootstrap";
 
 export default class ServicePage extends  React.Component {
   render(){
     return (
       <div className="content-wrap bg">
-        <div className="section-one service-page">
+        <div className="service-page">
           <Container>
             <Row>
-              <Col>
-                    <h1>Layanan Kami.</h1>
-                    <h5>"Some quick example text to build on the card title and make up the bulk of
-                          the card's content."</h5>
-              </Col>
-              <Col className="hide-on-med">
-                    <Image className="img-responsive" src={require("../assets/images/section-three.png")} />
+              <Col className="body center">
+                  <h1>Layanan Kami</h1>
+                  <h5>"Some quick example text to build on the card title and make up the bulk of
+                        the card's content."</h5>
               </Col>
             </Row>
-            <div className="service-two">
-                <Row>
-                    <Col md={4} xs={12}>
-                        <Card className="text-center first" style={{ width: '20rem' }}>
-                            <Card.Header>Bordir Komputer</Card.Header>
-                            <Card.Body>
-                                <Card.Text>
-                                <ListGroup variant="flush">
-                                  <ListGroup.Item>Bordir Polo Shirt</ListGroup.Item>
-                                  <ListGroup.Item>Bordir Kemeja</ListGroup.Item>
-                                  <ListGroup.Item>Bordir Jaket</ListGroup.Item>
-                                  <ListGroup.Item>Bordir Rompi</ListGroup.Item>
-                                  <ListGroup.Item>Bordir Emblem</ListGroup.Item>
-                                  <ListGroup.Item>Bordir Topi</ListGroup.Item>
-                                  <ListGroup.Item>Bordir Handuk</ListGroup.Item>
-                                  <ListGroup.Item>Bordir Slempang </ListGroup.Item>
-                                  <ListGroup.Item>Dan Lainnya </ListGroup.Item>
-                                </ListGroup>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                  </Col>
-                  <Col md={4} xs={12}>
-                        <Card className="text-center second" style={{ width: '20rem' }}>
-                            <Card.Header>Bordir Manual</Card.Header>
-                            <Card.Body>
-                                <Card.Text>
-                                <ListGroup variant="flush">
-                                  <ListGroup.Item>Pataka</ListGroup.Item>
-                                  <ListGroup.Item>Bendera Besar</ListGroup.Item>
-                                  <ListGroup.Item>Bunga Untuk Kebaya</ListGroup.Item>
-                                  <ListGroup.Item>Kaligrafi Besar</ListGroup.Item>
-                                  <ListGroup.Item>Pemandangan</ListGroup.Item>
-                                  <ListGroup.Item>Dan Lainya</ListGroup.Item>
-                                </ListGroup>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                  </Col>
-                  <Col md={4} xs={12}>
-                        <Card className="text-center third" style={{ width: '20rem' }}>
-                            <Card.Header>Menerima Pembuatan</Card.Header>
-                            <Card.Body>
-                                <Card.Text>
-                                <ListGroup variant="flush">
-                                  <ListGroup.Item>Kemeja</ListGroup.Item>
-                                  <ListGroup.Item>Polo Shirt</ListGroup.Item>
-                                  <ListGroup.Item>Kaos Oblong</ListGroup.Item>
-                                  <ListGroup.Item>Topi</ListGroup.Item>
-                                </ListGroup>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                  </Col>
-                </Row>
-            </div>
-          </Container> 
+          <div className="overlay"></div>
+          </Container>
         </div>
+        <div className="service-two">
+          <Container>
+            <Row>
+              <Col md={4}>
+                  <div className="box-content center">
+                    <div className="box-body">
+                    <i class='bx bxs-user bx-md' ></i>
+                      <h4>Pekerja Berpengalaman</h4>
+                    </div>
+                  </div>
+              </Col>
+              <Col md={4}>
+                  <div className="box-content center">
+                    <div className="box-body">
+                      <i class='bx bx-time-five bx-md' ></i>
+                      <h4>Tepat Waktu</h4>
+                    </div>
+                  </div>
+              </Col>
+              <Col md={4}>
+                  <div className="box-content center">
+                    <div className="box-body">
+                      <i class='bx bxs-truck bx-md' ></i>
+                      <h4>Pesanan Dapat Diantar</h4>
+                    </div>
+                  </div>
+              </Col>
+            </Row>
+          </Container>
+            </div>
       </div>
     );
   }
