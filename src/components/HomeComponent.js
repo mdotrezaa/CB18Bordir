@@ -10,7 +10,7 @@ export default class HomePage extends React.Component {
         <Container>
           <Row className="section-one">
             <Col xs={12} md={6} className="sectionOneLeft">
-              <div>
+              <div className="content-left">
                 <h2>BORDIR KOMPUTER</h2>
                 <div className="divider-title left"></div>
                 <p>
@@ -115,7 +115,7 @@ export default class HomePage extends React.Component {
         <div className="divider-1"></div>
         <Container>
           <Row className="section-two">
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="d-none d-md-block">
               <div className="two-left">
                 <Image
                   className="img-responsive"
@@ -144,6 +144,19 @@ export default class HomePage extends React.Component {
                 >
                   Selengkapnya
                 </Button>
+              </div>
+            </Col>
+            <Col
+              xs={12}
+              md={6}
+              className="d-block d-md-none"
+              Style="margin-top: 30px;"
+            >
+              <div className="two-left">
+                <Image
+                  className="img-responsive"
+                  src={require("../assets/images/service.png")}
+                />
               </div>
             </Col>
           </Row>

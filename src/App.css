@@ -2,7 +2,9 @@
   .hide-on-med {
     display: none;
   }
-  .sectionOneLeft div {
+  .sectionOneLeft .content-left,
+  .sectionOneLeft .divider,
+  .sectionOneLeft .bottom-header {
     width: 100% !important;
   }
   .navbar-brand {
@@ -258,10 +260,18 @@ i {
 .section-one {
   min-height: 100vh;
 }
+
 .section-two {
   padding: 0 0 10% 0;
   max-height: 100vh;
 }
+
+@media screen and (max-width: 768px) {
+  .section-two {
+    max-height: 100%;
+  }
+}
+
 .section-three {
   margin: 5% 0 10% 0;
   padding: 10% 0;
@@ -362,6 +372,9 @@ i {
 
 .three-left {
   color: #fff;
+}
+
+.three-left p {
   text-align: justify;
 }
 
@@ -715,6 +728,17 @@ i {
   background-color: #157295;
   border-color: #157295;
   color: #eee;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-img {
+    position: relative !important;
+    margin-bottom: 30px;
+  }
+
+  .footer-img img {
+    width: 50% !important;
+  }
 }
 
 .footer-img {
