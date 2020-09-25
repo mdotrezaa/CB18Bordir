@@ -29,7 +29,7 @@ export default class ContactPage extends  React.Component {
             </div>
             <Container className="kontak-page">
             <Row>
-            <Col>
+                <Col>
                   <Form className="form-kontak">
                     <Form.Row>
                       <Col>
@@ -72,42 +72,17 @@ export default class ContactPage extends  React.Component {
                   </Form>
                 </Col>
                 <Col md={6}>
-                <div className="kontak">
-                  <h4>Contact Information</h4>
-                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <Row>
-                      <Col>
-                      <h6>Blok D</h6>
-                      <ul>
-                        <li>
-                            <i class='bx bxs-map bx-xs bx-border-circle'></i>
-                            <span>
-                            126, 035, 088, 0176, 118
-                            </span>
-                        </li>
-                        <li>
-                            <i class='bx bxs-phone bx-xs bx-border-circle'></i>
-                            <span>
-                           (+62)859-123-5554
-                            </span>
-                        </li>
-                        <li>
-                        <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
-                          <span>
-                            mail@mail.id<p></p>
-                          </span>
-                        </li>
-                      </ul>
-                      </Col>
-                    </Row>
-                    <Row>
-                    <Col md={6}>
-                        <h6>Blok E</h6>
+                  <div className="kontak">
+                      <h4>Contact Information</h4>
+                      <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <Row>
+                        <Col>
+                        <h6>Blok D</h6>
                         <ul>
                           <li>
                               <i class='bx bxs-map bx-xs bx-border-circle'></i>
                               <span>
-                              128, 96, 135
+                              126, 035, 088, 0176, 118
                               </span>
                           </li>
                           <li>
@@ -123,32 +98,57 @@ export default class ContactPage extends  React.Component {
                             </span>
                           </li>
                         </ul>
-                      </Col>
-                      <Col md={6}>
-                      <h6>Blok G</h6>
-                      <ul>
-                        <li>
-                            <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col md={6}>
+                          <h6>Blok E</h6>
+                          <ul>
+                            <li>
+                                <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                                <span>
+                                128, 96, 135
+                                </span>
+                            </li>
+                            <li>
+                                <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                                <span>
+                              (+62)859-123-5554
+                                </span>
+                            </li>
+                            <li>
+                            <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
+                              <span>
+                                mail@mail.id<p></p>
+                              </span>
+                            </li>
+                          </ul>
+                        </Col>
+                        <Col md={6}>
+                        <h6>Blok G</h6>
+                        <ul>
+                          <li>
+                              <i class='bx bxs-map bx-xs bx-border-circle'></i>
+                              <span>
+                              003
+                              </span>
+                          </li>
+                          <li>
+                              <i class='bx bxs-phone bx-xs bx-border-circle'></i>
+                              <span>
+                            (+62)859-123-5554
+                              </span>
+                          </li>
+                          <li>
+                          <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
                             <span>
-                            003
+                              mail@mail.id<p></p>
                             </span>
-                        </li>
-                        <li>
-                            <i class='bx bxs-phone bx-xs bx-border-circle'></i>
-                            <span>
-                           (+62)859-123-5554
-                            </span>
-                        </li>
-                        <li>
-                        <i class='bx bxs-envelope bx-xs bx-border-circle'></i>
-                          <span>
-                            mail@mail.id<p></p>
-                          </span>
-                        </li>
-                      </ul>
-                      </Col>
-                    </Row>
-                </div>
+                          </li>
+                        </ul>
+                        </Col>
+                      </Row>
+                  </div>
                 </Col>
             </Row>
           </Container> 
