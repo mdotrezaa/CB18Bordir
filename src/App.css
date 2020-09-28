@@ -68,18 +68,16 @@ h6 {
 }
 .btn-primary {
   background-color: #157295 !important;
-  border: #157295 !important;
-  padding: 10px 24px !important;
-  font-size: 14pt !important;
+  border: 1px solid #157295 !important;
+  padding: 5px 15px !important;
+  font-size: 10pt !important;
+  letter-spacing: .05rem;
   font-weight: 600 !important;
 }
 .btn-primary:hover {
-  background-color: #fff !important;
-  border: #157295 !important;
-  color: #157295;
-  padding: 10px 24px !important;
-  font-size: 14pt !important;
-  font-weight: 600 !important;
+  background-color: transparent !important;
+  border:1px solid #157295 !important;
+  color: #157295!important;
 }
 .btn-secondary {
   background-color: #fff !important;
@@ -501,17 +499,6 @@ h6 {
 /* end about */
 
 /* service */
-.activity {
-  margin: 2.5rem 0;
-}
-
-.activity .divider {
-  margin: 0 auto 50px auto;
-  float: none;
-  width: 5% !important;
-  opacity: 0.5;
-  border-top: 5px solid #2193b0;
-}
 .service-page {
   background: url("./assets/images/slide4.jpg");
   background-size: cover;
@@ -549,6 +536,7 @@ h6 {
   width: 18em;
   height: 20em;
   display: flex;
+  margin: 0 auto;
   align-items: center;
 }
 .box-content:hover{
@@ -611,6 +599,39 @@ h6 {
 
 /* aktivitas */
 
+.activity {
+  margin: 2.5rem 0;
+}
+.activity h6{
+  padding: 0!important;
+  font-style: normal!important;
+}
+.activity p{
+  text-align: justify;
+}
+.list-activity{
+  padding: 20px 0;
+}
+.list-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+.list-footer span{
+  opacity: 0.4;
+  margin: 0 20px;
+}
+.list-activity .btn{
+  float: right;
+}
+.activity .divider {
+  margin: 0 auto 0 0;
+  float: none;
+  width: 100% !important;
+  opacity: 0.1;
+  border-top: 5px solid #2193b0;
+}
 .aktivitas-page .divider {
   margin: 0 auto 20px auto;
   float: none;

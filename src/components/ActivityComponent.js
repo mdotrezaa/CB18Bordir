@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Card, Tabs, Tab } from "react-bootstrap";
+import { Container, Row, Col, Button, Card, Tabs, Tab, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default class ActivityPage extends  React.Component {
@@ -19,76 +19,56 @@ export default class ActivityPage extends  React.Component {
         </div>
         <div className="activity">
             <Container>
-                <Tabs defaultActiveKey="terbaru" id="uncontrolled-tab-example">
-                    <Tab eventKey="terbaru" title="Terbaru">
-                        <Row>
-                            <Col md={4} sm={12}>
-                            <Card className="center" style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                                <Card.Body>
-                                <Card.Text>20-09-2020</Card.Text>
-                                <Card.Title>Card Title</Card.Title>
-                                    <Link>Selengkapnya</Link>
-                                </Card.Body>
-                            </Card>
-                            </Col>
-                            <Col md={4} sm={12}>
-                            <Card className="center" style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                                <Card.Body>
-                                <Card.Text>20-09-2020</Card.Text>
-                                <Card.Title>Card Title</Card.Title>
-                                    <Link>Selengkapnya</Link>
-                                </Card.Body>
-                            </Card>
-                            </Col>
-                            <Col md={4} sm={12}>
-                            <Card className="center" style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                                <Card.Body>
-                                <Card.Text>20-09-2020</Card.Text>
-                                <Card.Title>Card Title</Card.Title>
-                                    <Link>Selengkapnya</Link>
-                                </Card.Body>
-                            </Card>
-                            </Col>
-                        </Row>
-                    </Tab>
-                    <Tab eventKey="populer" title="Terpopuler">
-                        <Row>
-                            <Col md={4} sm={12}>
-                            <Card className="center" style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                                <Card.Body>
-                                <Card.Text>20-09-2020</Card.Text>
-                                <Card.Title>Card Title</Card.Title>
-                                    <Link>Selengkapnya</Link>
-                                </Card.Body>
-                            </Card>
-                            </Col>
-                            <Col md={4} sm={12}>
-                            <Card className="center" style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                                <Card.Body>
-                                <Card.Text>20-09-2020</Card.Text>
-                                <Card.Title>Card Title</Card.Title>
-                                    <Link>Selengkapnya</Link>
-                                </Card.Body>
-                            </Card>
-                            </Col>
-                            <Col md={4} sm={12}>
-                            <Card className="center" style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={require("../assets/images/slide1.jpg")} />
-                                <Card.Body>
-                                <Card.Text>20-09-2020</Card.Text>
-                                <Card.Title>Card Title</Card.Title>
-                                    <Link>Selengkapnya</Link>
-                                </Card.Body>
-                            </Card>
-                            </Col>
-                        </Row>
-                    </Tab>
-                </Tabs>
+                <div className="list-activity">
+                    <Row>
+                        <Col md={4}>
+                            <Image className="img-responsive" src={require("../assets/images/slide1.jpg")} />
+                        </Col>
+                        <Col md={8}>
+                            <h6>Lorem Ipsum sit amet!</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <div className="list-footer">
+                                <span>Author Name</span>
+                                <Button>Selengkapnya</Button>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+                <div className="divider"></div>
+                <div className="list-activity">
+                    <Row>
+                        <Col md={4}>
+                            <Image className="img-responsive" src={require("../assets/images/slide4.jpg")} />
+                        </Col>
+                        <Col md={8}>
+                            <h6>Lorem Ipsum sit amet!</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <div className="list-footer">
+                                <span>Author Name</span>
+                                <Button>Selengkapnya</Button>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+                <div className="divider"></div>
+                <div className="list-activity">
+                    <Row>
+                        <Col md={4}>
+                            <Image className="img-responsive" src={require("../assets/images/slide2.jpg")} />
+                        </Col>
+                        <Col md={8}>
+                            <h6>Lorem Ipsum sit amet!</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <div className="list-footer">
+                                <span>Author Name</span>
+                                <Button>Selengkapnya</Button>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
             </Container>
         </div>
       </div>
