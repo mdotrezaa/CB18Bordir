@@ -1,55 +1,84 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Image, Card, ListGroup, Button, Collapse, Accordion } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Image,
+  Card,
+  ListGroup,
+  Button,
+  Collapse,
+  Accordion,
+} from "react-bootstrap";
 
-export default class ServicePage extends  React.Component {
-  render(){
+export default class ServicePage extends React.Component {
+  render() {
     return (
       <div className="content-wrap bg">
         <div className="service-page">
           <Container>
             <Row>
               <Col className="body center">
-                  <h1>Layanan Kami</h1>
-                  <h5>"Some quick example text to build on the card title and make up the bulk of
-                        the card's content."</h5>              
-                  <Button
-                    className="btn-primary service-btn"
-                    variant="primary"
-                    href="/hubungi-kami"
-                  >
-                    Hubungi Kami
-                  </Button>
+                <h1>Layanan</h1>
+                <h5>
+                  Cahaya Baru 18 memberikan layanan untuk segala jenis kebutuhan
+                  Bordir, Sablon dan Konveksi.
+                </h5>
               </Col>
             </Row>
-          <div className="overlay"></div>
+            <div className="overlay"></div>
           </Container>
         </div>
         <div className="service-two">
           <Container>
             <Row>
               <Col md={4}>
-                  <div className="box-content center">
-                    <div className="box-body">
-                    <i class='bx bxs-user bx-md' ></i>
-                      <h4>Pekerja Berpengalaman</h4>
-                    </div>
+                <div className="box-content center">
+                  <Image
+                    className="img-responsive"
+                    src={require("../assets/images/bordir.png")}
+                  />
+                  <div className="img-overlay"></div>
+                  <div className="box-body">
+                    <h4>Bordir</h4>
+                    <p>
+                      Bordir komputer untuk memaksimalkan hasil dan waktu
+                      pengerjaan
+                    </p>
                   </div>
+                </div>
               </Col>
               <Col md={4}>
-                  <div className="box-content center">
-                    <div className="box-body">
-                      <i class='bx bx-time-five bx-md' ></i>
-                      <h4>Tepat Waktu</h4>
-                    </div>
+                <div className="box-content center">
+                  <Image
+                    className="img-responsive"
+                    src={require("../assets/images/sablon.png")}
+                  />
+                  <div className="img-overlay"></div>
+                  <div className="box-body">
+                    <h4>Sablon</h4>
+                    <p>
+                      Sablon dengan bahan berkualitas terbaik untuk hasil
+                      memuaskan
+                    </p>
                   </div>
+                </div>
               </Col>
               <Col md={4}>
-                  <div className="box-content center">
-                    <div className="box-body">
-                      <i class='bx bxs-truck bx-md' ></i>
-                      <h4>Pesanan Dapat Diantar</h4>
-                    </div>
+                <div className="box-content center">
+                  <Image
+                    className="img-responsive"
+                    src={require("../assets/images/konveksi.png")}
+                  />
+                  <div className="img-overlay"></div>
+                  <div className="box-body">
+                    <h4>Konveksi</h4>
+                    <p>
+                      Konveksi berbagai macam jenis pakaian dengan bahan
+                      berkualitas dan rapi
+                    </p>
                   </div>
+                </div>
               </Col>
             </Row>
           </Container>
@@ -100,57 +129,58 @@ export default class ServicePage extends  React.Component {
           <Container>
             <Row>
               <Col className="body center">
-                  <h3>Menerima Pembuatan</h3>
-                  <h5>"Some quick example text to build on the card title and make up the bulk of
-                        the card's content."</h5>
-                  <div className="divider-title"></div>
-
+                <h3>Menerima Pembuatan</h3>
+                <h5>
+                  "Some quick example text to build on the card title and make
+                  up the bulk of the card's content."
+                </h5>
+                <div className="divider-title"></div>
               </Col>
             </Row>
             <Row>
               <Col md={3}>
-                  <div className="center">
-                    <div className="four-body">
-                      <Image
+                <div className="center">
+                  <div className="four-body">
+                    <Image
                       className="img-responsive"
                       src={require("../assets/images/tshirt.png")}
-                      />
-                      <h4>Kaos Oblong</h4>
-                    </div>
+                    />
+                    <h4>Kaos Oblong</h4>
                   </div>
+                </div>
               </Col>
               <Col md={3}>
-                  <div className="center">
-                    <div className="four-body">
-                      <Image
+                <div className="center">
+                  <div className="four-body">
+                    <Image
                       className="img-responsive"
                       src={require("../assets/images/shirt.png")}
-                      />
-                      <h4>Kemeja</h4>
-                    </div>
+                    />
+                    <h4>Kemeja</h4>
                   </div>
+                </div>
               </Col>
               <Col md={3}>
-                  <div className="center">
-                    <div className="four-body">
-                      <Image
+                <div className="center">
+                  <div className="four-body">
+                    <Image
                       className="img-responsive"
                       src={require("../assets/images/polo-shirt.png")}
-                      />
-                      <h4>Polo Shirt</h4>
-                    </div>
+                    />
+                    <h4>Polo Shirt</h4>
                   </div>
+                </div>
               </Col>
               <Col md={3}>
-                  <div className="center">
-                    <div className="four-body">
-                      <Image
+                <div className="center">
+                  <div className="four-body">
+                    <Image
                       className="img-responsive"
-                        src={require("../assets/images/hat.png")}
-                      />
-                      <h4>Topi</h4>
-                    </div>
+                      src={require("../assets/images/hat.png")}
+                    />
+                    <h4>Topi</h4>
                   </div>
+                </div>
               </Col>
             </Row>
           </Container>
@@ -158,4 +188,4 @@ export default class ServicePage extends  React.Component {
       </div>
     );
   }
-};
+}
