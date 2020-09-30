@@ -25,12 +25,15 @@ export default class ActivityPage extends  React.Component {
                             <Image className="img-responsive" src={require("../assets/images/slide1.jpg")} />
                         </Col>
                         <Col md={8}>
-                            <h6>Lorem Ipsum sit amet!</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                            <div className="list-header">
+                                <span>Date</span>
+                            </div>
+                            <div className="list-body">
+                                <h5><a href="#">Lorem Ipsum sit amet!</a></h5><br/>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
                             <div className="list-footer">
                                 <span>Author Name</span>
-                                <Button>Selengkapnya</Button>
                             </div>
                         </Col>
                     </Row>
@@ -42,33 +45,39 @@ export default class ActivityPage extends  React.Component {
                             <Image className="img-responsive" src={require("../assets/images/slide4.jpg")} />
                         </Col>
                         <Col md={8}>
-                            <h6>Lorem Ipsum sit amet!</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                            <div className="list-header">
+                                <span>Date</span>
+                            </div>
+                            <div className="list-body">
+                                <h5><a href="#">Lorem Ipsum sit amet!</a></h5><br/>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
                             <div className="list-footer">
                                 <span>Author Name</span>
-                                <Button>Selengkapnya</Button>
                             </div>
                         </Col>
                     </Row>
                 </div>
                 <div className="divider"></div>
                 <div className="list-activity">
-                    <Row>
+                    <Row> 
                         <Col md={4}>
                             <Image className="img-responsive" src={require("../assets/images/slide2.jpg")} />
                         </Col>
                         <Col md={8}>
-                            <h6>Lorem Ipsum sit amet!</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                            <div className="list-header">
+                                <span>Date</span>
+                            </div>
+                            <div className="list-body">
+                                <h5><a href="#">Lorem Ipsum sit amet!</a></h5><br/>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
                             <div className="list-footer">
                                 <span>Author Name</span>
-                                <Button>Selengkapnya</Button>
                             </div>
                         </Col>
                     </Row>
-                </div>
+                </div> 
             </Container>
         </div>
       </div>
