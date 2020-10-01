@@ -114,6 +114,15 @@ h6 {
   margin: 0 auto;
   padding: 40px 0;
 }
+
+.divider-2 {
+  width: 5%;
+  opacity: 0.5;
+  border-top: 5px solid #2193b0;
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 0;
+}
 .bx-border-circle {
   background: #157295;
 }
@@ -502,6 +511,14 @@ h6 {
 }
 .about-page h5 {
   opacity: 0.5;
+}
+
+.ap-hubungi {
+  margin: 50px 0;
+}
+
+.ap-client {
+  margin: 50px 0 !important;
 }
 /* end about */
 
