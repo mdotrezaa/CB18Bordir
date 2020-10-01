@@ -337,6 +337,7 @@ h6 {
 }
 
 .bottom-header .icon {
+  color: #fff;
   display: flex;
 }
 
@@ -365,10 +366,6 @@ h6 {
 }
 .phone {
   font-weight: 700;
-}
-
-.two-right {
-  /* width: 70%; */
 }
 
 .two-right p {
@@ -646,6 +643,12 @@ h6 {
   color: #2193b0;
   font-weight: 700;
 }
+.list-body h5{
+  padding: 0!important;
+}
+.list-body p{
+  margin: 1rem 0;
+}
 .list-activity {
   padding: 20px 0;
 }
@@ -680,6 +683,24 @@ h6 {
 .list-activity p {
   opacity: 0.5;
 }
+.read-left{
+  height: 15em;
+  display: flex;
+  align-items: center
+}
+.read-link{
+  background: transparent!important;
+  border-color: #2193b0!important;
+  color: #2193b0!important;
+  font-weight: 700!important;
+  width: 80%;
+  margin: auto!important;
+}
+.read-link:hover{
+  background: #2193b0!important;
+  border-color: #2193b0!important;
+  color: #fbfbfb!important;
+}
 .activity .divider {
   margin: 0 auto 0 0;
   float: none;
@@ -706,6 +727,19 @@ h6 {
 }
 .aktivitas-page h5 {
   opacity: 0.5;
+}
+.pagination{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em
+}
+.page-link{
+  color: #2193b0!important;
+}
+.list-activity .thumbnail img{
+  width: 100%;
+  height: 250px!important;
+  object-fit: cover;
 }
 /* end aktivitas */
 
@@ -947,8 +981,8 @@ h6 {
   width: 100%;
   margin: auto;
   padding: 30px;
-  vertical-align: middle;
   filter: grayscale(100%);
+  vertical-align: middle;
 }
 .client-col img:hover {
   filter: grayscale(0%);
