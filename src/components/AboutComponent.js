@@ -49,6 +49,8 @@ export default class AboutPage extends React.Component {
           <Container>
             <h2 className="center">Jam Operasional</h2>
             <div className="divider-2"></div>
+            <h2 className="center blue-primary-font">10.00 - 21.00 WIB</h2>
+            <h3 className="center">SETIAP HARI</h3>
           </Container>
         </div>
         <div className="client ap-client">

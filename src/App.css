@@ -121,7 +121,7 @@ h6 {
   border-top: 5px solid #2193b0;
   display: flex;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 10px 0;
 }
 .bx-border-circle {
   background: #157295;
@@ -204,6 +204,10 @@ h6 {
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 15px;
+}
+
+.blue-primary-font {
+  color: #157295;
 }
 /* end general css */
 /* nav css */
@@ -503,6 +507,9 @@ h6 {
 /* end home css */
 
 /* about */
+.section-one.about-page {
+  min-height: auto !important;
+}
 .about-page h1 {
   font-size: 36pt;
 }
@@ -516,6 +523,11 @@ h6 {
 
 .ap-client {
   margin: 50px 0 !important;
+}
+
+.ap-hour {
+  margin: 50px 0;
+  padding: 50px 0;
 }
 /* end about */
 
