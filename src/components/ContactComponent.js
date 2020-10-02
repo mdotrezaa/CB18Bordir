@@ -7,7 +7,7 @@ import {
   Form,
   InputGroup,
   FormControl,
-  Card,
+  Card,Image
 } from "react-bootstrap";
 
 export default class ContactPage extends React.Component {
@@ -75,11 +75,11 @@ export default class ContactPage extends React.Component {
               tabindex="0"
             ></iframe>
           </div>
-          <div className="kontak-page">
-            <div class="overlay"></div>
-            <Container>
-              <Row>
-                <Col className="col-100" xs={12} md={7}>
+        </div>
+        <div className="kontak-form">
+        <Container>
+            <Row>
+            <Col xs={12} md={7}>
                   <Form className="form-kontak">
                     <Form.Row>
                       <Col>
@@ -169,8 +169,103 @@ export default class ContactPage extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </div>
+          <div class="overlay"></div>
         </div>
+        {/* <div className="kontak-page">
+          <Container>
+            <Row className="content">
+            <Col className="col-100" xs={12} md={7}>
+                  <Form className="form-kontak">
+                    <Form.Row>
+                      <Col>
+                        <InputGroup>
+                          <InputGroup.Prepend>
+                            <InputGroup.Text>
+                              <i
+                                class="bx bxs-user"
+                                style={{ color: "#000" }}
+                              ></i>
+                            </InputGroup.Text>
+                          </InputGroup.Prepend>
+                          <FormControl
+                            id="inlineFormInputGroupUsername"
+                            placeholder="Nama"
+                          />
+                        </InputGroup>
+                      </Col>
+                      <Col>
+                        <InputGroup>
+                          <InputGroup.Prepend>
+                            <InputGroup.Text>
+                              <i
+                                class="bx bxs-phone"
+                                style={{ color: "#000" }}
+                              ></i>
+                            </InputGroup.Text>
+                          </InputGroup.Prepend>
+                          <FormControl
+                            id="inlineFormInputGroupUsername"
+                            placeholder="Nomor Telepon"
+                          />
+                        </InputGroup>
+                      </Col>
+                    </Form.Row>
+                    <Form.Row>
+                      <Col>
+                        <InputGroup>
+                          <InputGroup.Prepend>
+                            <InputGroup.Text>@</InputGroup.Text>
+                          </InputGroup.Prepend>
+                          <FormControl
+                            id="inlineFormInputGroupUsername"
+                            placeholder="Email"
+                          />
+                        </InputGroup>
+                      </Col>
+                    </Form.Row>
+
+                    <Form.Row>
+                      <Col>
+                        <Form.Group controlId="exampleForm.ControlTextarea1">
+                          <Form.Control
+                            as="textarea"
+                            rows="3"
+                            placeholder="Deskripsi"
+                          />
+                        </Form.Group>
+                      </Col>
+                    </Form.Row>
+                    <Button className="btn-primary center">Kirim</Button>
+                  </Form>
+                </Col>
+                <Col className="col-100" xs={12} md={5}>
+                  <div className="kontak-info">
+                    <div class="contact_info">
+                      <ul>
+                        <li class="c_call">
+                          <i class="bx bxs-phone"></i>
+                          <aside>
+                            <h3>Hubungi kami</h3>
+                            <a href="tel:08176389206">+62 817-6389-206</a>
+                          </aside>
+                        </li>
+                        <li class="c_mail">
+                          <i class="bx bx-mail-send"></i>
+                          <aside>
+                            <h3>Kirim email</h3>
+                            <a href="mailto:erunugriyanto@gmail.com">
+                              erunugriyanto@gmail.com
+                            </a>
+                          </aside>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </Col>
+            </Row>
+          </Container>
+          <div class="overlay"></div>
+        </div> */}
       </div>
     );
   }

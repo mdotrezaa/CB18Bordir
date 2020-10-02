@@ -260,32 +260,32 @@ export default class HomePage extends React.Component {
         <div className="client">
           <Container>
             <Row>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/polda.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/dishub.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/jamkrindo.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/kementriantng.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/mobil.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6} >
                 <div className="client-col">
                   <Image src={require("../assets/images/epson.png")} />
                 </div>

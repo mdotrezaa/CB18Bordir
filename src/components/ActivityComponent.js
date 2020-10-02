@@ -33,7 +33,7 @@ export default class ActivityPage extends React.Component {
           <Container>
             <div className="list-activity">
               <Row>
-                <Col md={4}>
+                <Col md={4} xs={12}>
                   <div className="thumbnail">
                     <Image
                       className="img-responsive"
@@ -41,7 +41,7 @@ export default class ActivityPage extends React.Component {
                     />
                   </div>
                 </Col>
-                <Col md={8}>
+                <Col md={8} xs={12}>
                   <div className="list-header">
                     <span>20/09/2020</span>
                   </div>
@@ -59,6 +59,7 @@ export default class ActivityPage extends React.Component {
                   </div>
                   <div className="list-footer">
                     <span>Cahaya Baru 18 Admin</span>
+                    <br />
                     <Button
                       className="read-link"
                       Style="width: 150px; float: right;"

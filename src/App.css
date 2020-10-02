@@ -15,6 +15,23 @@
   }
   .card {
     margin: 30px 0 !important;
+  } 
+  .list-body{
+    min-height: 300px;
+  }
+  .read-link{
+    width: 100%!important;
+  }
+
+  /* kontak */
+  .kontak-info{
+    margin: 10% 0;
+  }
+  .kontak-info h3{
+    font-size: 1rem;
+  }
+  .kontak-form .contact_info ul li{
+    padding-left: 65px!important;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -573,7 +590,7 @@ h6 {
   width: 18em;
   height: 20em;
   display: flex;
-  margin: 0 auto;
+  margin: 10px auto;
   align-items: center;
   border-radius: 15px;
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
@@ -741,9 +758,10 @@ h6 {
   opacity: 0.5;
 }
 .pagination {
-  margin-left: auto;
-  margin-right: auto;
-  width: 10em;
+  margin: 0 auto;
+  width: 200px;
+  padding: 20px;
+  color: white;
 }
 .page-link {
   color: #2193b0 !important;
@@ -790,28 +808,35 @@ h6 {
   /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
   color: #2d2d2d;
 }
-.kontak-page {
+.kontak-form {
   position: relative;
-  height: 400px;
+  padding: 10% 0;
+  height: 100%;
   background: url("assets/images/contact.png") no-repeat;
   background-size: cover;
   background-position: bottom;
 }
-
-.kontak-page .container {
+.kontak-form .content {
+  position: relative;
+  z-index: 999;
+  transform: skewY(0deg);
+}
+.kontak-form .container {
+  position: relative;
+  z-index: 999;
   height: 100%;
   max-width: 95%;
 }
 
-.kontak-page .container .row {
+.kontak-form .container .row {
   height: 100%;
 }
 
-.kontak-page .container .row .col-100 {
+.kontak-form .container .row .col-100 {
   height: 100%;
 }
 
-.kontak-page .overlay {
+.kontak-form .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -822,7 +847,7 @@ h6 {
   opacity: 0.5;
 }
 
-.kontak-page .divider {
+.kontak-form .divider {
   margin: 0 auto 20px auto;
   float: none;
   width: 5% !important;
@@ -830,26 +855,26 @@ h6 {
   border-top: 5px solid #2193b0;
 }
 
-.kontak-page .input-group-text {
+.kontak-form .input-group-text {
   background-color: #fff !important;
   border: none !important;
 }
 
-.kontak-page .form-control {
+.kontak-form .form-control {
   border: none !important;
   padding: 1.3em 1em;
   font-size: 11pt;
 }
 
-.kontak-page input.form-control {
+.kontak-form input.form-control {
   height: calc(2.5em + 0.75rem + 2px);
 }
 
-.kontak-page .form-control:focus {
+.kontak-form .form-control:focus {
   box-shadow: none !important;
 }
 
-.kontak-page h5 {
+.kontak-form h5 {
   opacity: 0.5;
 }
 .kontak h4,
@@ -879,14 +904,6 @@ h6 {
   padding: 2.5rem 0 0 0;
 }
 
-.form-kontak {
-  position: absolute;
-  width: 90%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .form-kontak .form-row {
   margin: 15px 0;
 }
@@ -914,26 +931,27 @@ h6 {
   margin: 50px 0 0 0;
 }
 
-.kontak-page .contact_info {
+.kontak-form .contact_info {
   padding: 0px 10px;
   margin-top: 14px;
   border-radius: 5px;
   background: #ffffff;
 }
 
-.kontak-page .contact_info ul {
+.kontak-form .contact_info ul {
+  padding: 0;
   margin-bottom: 0;
   list-style-type: none;
 }
 
-.kontak-page .contact_info ul li {
+.kontak-form .contact_info ul li {
   position: relative;
   border-bottom: 1px solid #dddddd;
   padding: 25px;
   padding-left: 84px;
 }
 
-.kontak-page .contact_info ul li i {
+.kontak-form .contact_info ul li i {
   font-size: 30px;
   border-right: 1px solid #dddddd;
   height: 50px;
@@ -946,15 +964,7 @@ h6 {
   padding-right: 7px;
 }
 
-.kontak-info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-}
-
-.kontak-page .contact_info ul li aside h3 {
+.kontak-form .contact_info ul li aside h3 {
   font-weight: 600;
   color: #848484;
   font-family: "open sans", sans-serif;
@@ -962,7 +972,7 @@ h6 {
   padding: 0;
 }
 
-.kontak-page .contact_info ul li aside a {
+.kontak-form .contact_info ul li aside a {
   padding-top: 5px;
   display: block;
   color: #848484;
