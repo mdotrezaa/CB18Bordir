@@ -612,15 +612,9 @@ h6 {
   object-fit: cover;
   border-radius: 15px;
 }
-<<<<<<< HEAD
 .box-content .box-body{
   padding: 30px;
   color: #45517f;
-=======
-
-.box-content .box-body {
-  color: #ffffff;
->>>>>>> 2096d54423e715f0eb71c88ab2c5eb13309873b2
   margin: 0 auto;
   position: absolute;
   top: 50%;
