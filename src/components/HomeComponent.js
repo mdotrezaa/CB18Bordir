@@ -212,7 +212,7 @@ export default class HomePage extends React.Component {
                     src={require("../assets/images/slide1.jpg")}
                   />
                   <Card.Body>
-                    <Card.Text>20/09/2020</Card.Text>
+                    <Card.Text className="center">20/09/2020</Card.Text>
                     <Card.Title>Penambahan Mesin Bordir Baru</Card.Title>
                     <Link to="/aktivitas/post">Baca</Link>
                   </Card.Body>
@@ -225,7 +225,7 @@ export default class HomePage extends React.Component {
                     src={require("../assets/images/store.jpg")}
                   />
                   <Card.Body>
-                    <Card.Text>20/09/2020</Card.Text>
+                    <Card.Text className="center">20/09/2020</Card.Text>
                     <Card.Title>Pembukaan Outlet Cabang</Card.Title>
                     <Link>Baca</Link>
                   </Card.Body>
@@ -238,7 +238,7 @@ export default class HomePage extends React.Component {
                     src={require("../assets/images/kemnaker-img.jpg")}
                   />
                   <Card.Body>
-                    <Card.Text>20/09/2020</Card.Text>
+                    <Card.Text className="center">20/09/2020</Card.Text>
                     <Card.Title>
                       Proyek Bordir Kementerian Ketenagakerjaan RI
                     </Card.Title>
@@ -260,32 +260,32 @@ export default class HomePage extends React.Component {
         <div className="client">
           <Container>
             <Row>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/polda.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/dishub.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/jamkrindo.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/kementriantng.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6}>
                 <div className="client-col">
                   <Image src={require("../assets/images/mobil.png")} />
                 </div>
               </Col>
-              <Col>
+              <Col md={2} xs={6} >
                 <div className="client-col">
                   <Image src={require("../assets/images/epson.png")} />
                 </div>
