@@ -31,6 +31,12 @@ body {
   position: relative !important;
   min-height: 100vh;
 }
+.navbar-light .navbar-toggler {
+  border: none!important;
+}
+.navbar-light .navbar-toggler-icon.is-active {
+  background-image: url("../src/assets/images//bx-x-circle.svg")!important;
+}
 .custom-switch {
   padding: 0 !important;
 }
@@ -57,6 +63,10 @@ h6 {
   line-height: 1.5em !important;
   font-style: italic !important;
   padding: 1rem 0;
+}
+.mobile-logo{
+  font-style: normal!important;
+  font-weight: 700!important;
 }
 .center {
   text-align: center;
@@ -561,6 +571,7 @@ h6 {
   color: #fff!important;
 }
 .box-content .box-body{
+  padding: 30px;
   color: #45517f;
   margin: 0 auto;
 }

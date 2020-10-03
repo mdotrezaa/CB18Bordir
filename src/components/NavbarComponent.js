@@ -12,10 +12,7 @@ const NavbarComponent = (props) => {
               className="hide-on-med"
               src={require("../assets/images/header-logo.png")}
             />
-            <Image
-              className="hide-on-large"
-              src={require("../assets/images/logo.png")}
-            />
+            <h4 className="hide-on-large center mobile-logo">Cahaya Baru</h4>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav justify-content-end">
