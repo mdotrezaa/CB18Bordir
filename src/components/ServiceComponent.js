@@ -130,10 +130,6 @@ export default class ServicePage extends React.Component {
             <Row>
               <Col className="body center">
                 <h3>Menerima Pembuatan</h3>
-                <h5>
-                  "Some quick example text to build on the card title and make
-                  up the bulk of the card's content."
-                </h5>
                 <div className="divider-title"></div>
               </Col>
             </Row>
