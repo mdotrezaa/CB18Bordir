@@ -15,23 +15,23 @@
   }
   .card {
     margin: 30px 0 !important;
-  } 
-  .list-body{
+  }
+  .list-body {
     min-height: 300px;
   }
-  .read-link{
-    width: 100%!important;
+  .read-link {
+    width: 100% !important;
   }
 
   /* kontak */
-  .kontak-info{
+  .kontak-info {
     margin: 10% 0;
   }
-  .kontak-info h3{
+  .kontak-info h3 {
     font-size: 1rem;
   }
-  .kontak-form .contact_info ul li{
-    padding-left: 65px!important;
+  .kontak-form .contact_info ul li {
+    padding-left: 65px !important;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -49,10 +49,10 @@ body {
   min-height: 100vh;
 }
 .navbar-light .navbar-toggler {
-  border: none!important;
+  border: none !important;
 }
 .navbar-light .navbar-toggler-icon.is-active {
-  background-image: url("../src/assets/images//bx-x-circle.svg")!important;
+  background-image: url("../src/assets/images//bx-x-circle.svg") !important;
 }
 .custom-switch {
   padding: 0 !important;
@@ -80,9 +80,9 @@ h6 {
   line-height: 1.5em !important;
   padding: 1rem 0;
 }
-.mobile-logo{
-  font-style: normal!important;
-  font-weight: 700!important;
+.mobile-logo {
+  font-style: normal !important;
+  font-weight: 700 !important;
 }
 .center {
   text-align: center !important;
@@ -235,6 +235,10 @@ h6 {
 
 .blue-primary-font {
   color: #157295;
+}
+
+button:focus {
+  outline: none !important;
 }
 /* end general css */
 /* nav css */
@@ -612,7 +616,7 @@ h6 {
   object-fit: cover;
   border-radius: 15px;
 }
-.box-content .box-body{
+.box-content .box-body {
   padding: 30px;
   color: #45517f;
   margin: 0 auto;

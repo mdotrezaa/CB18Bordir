@@ -7,7 +7,7 @@ import {
   Form,
   InputGroup,
   FormControl,
-  Card,Image
+  Card,
 } from "react-bootstrap";
 
 export default class ContactPage extends React.Component {
@@ -65,6 +65,7 @@ export default class ContactPage extends React.Component {
           </Container>
           <div className="maps">
             <iframe
+              title="maps"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1426704457717!2d106.79798231476191!3d-6.244921995479634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f16e9ffbc599%3A0xe4f891348e1a7d06!2sCahaya%20Baru%2018!5e0!3m2!1sid!2sid!4v1600860468023!5m2!1sid!2sid"
               frameborder="0"
               Style="border:0;"
@@ -77,98 +78,98 @@ export default class ContactPage extends React.Component {
           </div>
         </div>
         <div className="kontak-form">
-        <Container>
+          <Container>
             <Row>
-            <Col xs={12} md={7}>
-                  <Form className="form-kontak">
-                    <Form.Row>
-                      <Col>
-                        <InputGroup>
-                          <InputGroup.Prepend>
-                            <InputGroup.Text>
-                              <i
-                                class="bx bxs-user"
-                                style={{ color: "#000" }}
-                              ></i>
-                            </InputGroup.Text>
-                          </InputGroup.Prepend>
-                          <FormControl
-                            id="inlineFormInputGroupUsername"
-                            placeholder="Nama"
-                          />
-                        </InputGroup>
-                      </Col>
-                      <Col>
-                        <InputGroup>
-                          <InputGroup.Prepend>
-                            <InputGroup.Text>
-                              <i
-                                class="bx bxs-phone"
-                                style={{ color: "#000" }}
-                              ></i>
-                            </InputGroup.Text>
-                          </InputGroup.Prepend>
-                          <FormControl
-                            id="inlineFormInputGroupUsername"
-                            placeholder="Nomor Telepon"
-                          />
-                        </InputGroup>
-                      </Col>
-                    </Form.Row>
-                    <Form.Row>
-                      <Col>
-                        <InputGroup>
-                          <InputGroup.Prepend>
-                            <InputGroup.Text>@</InputGroup.Text>
-                          </InputGroup.Prepend>
-                          <FormControl
-                            id="inlineFormInputGroupUsername"
-                            placeholder="Email"
-                          />
-                        </InputGroup>
-                      </Col>
-                    </Form.Row>
+              <Col xs={12} md={7}>
+                <Form className="form-kontak">
+                  <Form.Row>
+                    <Col>
+                      <InputGroup>
+                        <InputGroup.Prepend>
+                          <InputGroup.Text>
+                            <i
+                              class="bx bxs-user"
+                              style={{ color: "#000" }}
+                            ></i>
+                          </InputGroup.Text>
+                        </InputGroup.Prepend>
+                        <FormControl
+                          id="inlineFormInputGroupUsername"
+                          placeholder="Nama"
+                        />
+                      </InputGroup>
+                    </Col>
+                    <Col>
+                      <InputGroup>
+                        <InputGroup.Prepend>
+                          <InputGroup.Text>
+                            <i
+                              class="bx bxs-phone"
+                              style={{ color: "#000" }}
+                            ></i>
+                          </InputGroup.Text>
+                        </InputGroup.Prepend>
+                        <FormControl
+                          id="inlineFormInputGroupUsername"
+                          placeholder="Nomor Telepon"
+                        />
+                      </InputGroup>
+                    </Col>
+                  </Form.Row>
+                  <Form.Row>
+                    <Col>
+                      <InputGroup>
+                        <InputGroup.Prepend>
+                          <InputGroup.Text>@</InputGroup.Text>
+                        </InputGroup.Prepend>
+                        <FormControl
+                          id="inlineFormInputGroupUsername"
+                          placeholder="Email"
+                        />
+                      </InputGroup>
+                    </Col>
+                  </Form.Row>
 
-                    <Form.Row>
-                      <Col>
-                        <Form.Group controlId="exampleForm.ControlTextarea1">
-                          <Form.Control
-                            as="textarea"
-                            rows="3"
-                            placeholder="Deskripsi"
-                          />
-                        </Form.Group>
-                      </Col>
-                    </Form.Row>
-                    <Button className="btn-primary center">Kirim</Button>
-                  </Form>
-                </Col>
-                <Col className="col-100" xs={12} md={5}>
-                  <div className="kontak-info">
-                    <div class="contact_info">
-                      <ul>
-                        <li class="c_call">
-                          <i class="bx bxs-phone"></i>
-                          <aside>
-                            <h3>Hubungi kami</h3>
-                            <a href="tel:08176389206">+62 817-6389-206</a>
-                          </aside>
-                        </li>
-                        <li class="c_mail">
-                          <i class="bx bx-mail-send"></i>
-                          <aside>
-                            <h3>Kirim email</h3>
-                            <a href="mailto:erunugriyanto@gmail.com">
-                              erunugriyanto@gmail.com
-                            </a>
-                          </aside>
-                        </li>
-                      </ul>
-                    </div>
+                  <Form.Row>
+                    <Col>
+                      <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Control
+                          as="textarea"
+                          rows="3"
+                          placeholder="Deskripsi"
+                        />
+                      </Form.Group>
+                    </Col>
+                  </Form.Row>
+                  <Button className="btn-primary center">Kirim</Button>
+                </Form>
+              </Col>
+              <Col className="col-100" xs={12} md={5}>
+                <div className="kontak-info">
+                  <div class="contact_info">
+                    <ul>
+                      <li class="c_call">
+                        <i class="bx bxs-phone"></i>
+                        <aside>
+                          <h3>Hubungi kami</h3>
+                          <a href="tel:08176389206">+62 817-6389-206</a>
+                        </aside>
+                      </li>
+                      <li class="c_mail">
+                        <i class="bx bx-mail-send"></i>
+                        <aside>
+                          <h3>Kirim email</h3>
+                          <a href="mailto:erunugriyanto@gmail.com">
+                            erunugriyanto@gmail.com
+                          </a>
+                        </aside>
+                      </li>
+                    </ul>
                   </div>
-                </Col>
-              </Row>
-            </Container>
+                </div>
+              </Col>
+            </Row>
+          </Container>
           <div class="overlay"></div>
         </div>
         {/* <div className="kontak-page">

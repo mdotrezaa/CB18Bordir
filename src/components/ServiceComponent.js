@@ -1,15 +1,5 @@
-import React, { useState } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Image,
-  Card,
-  ListGroup,
-  Button,
-  Collapse,
-  Accordion,
-} from "react-bootstrap";
+import React from "react";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 export default class ServicePage extends React.Component {
   render() {
@@ -108,7 +98,7 @@ export default class ServicePage extends React.Component {
                     konveksi ataupun sablon karena kami memberikan semua
                     pelayanan tersebut.
                   </p>
-                  <ul class="list-service">
+                  <ul className="list-service">
                     <li>Bordir Polo Shirt</li>
                     <li>Bordir Kemeja</li>
                     <li>Bordir Jaket</li>
@@ -123,7 +113,7 @@ export default class ServicePage extends React.Component {
               </Col>
             </Row>
           </Container>
-          <div class="overlay"></div>
+          <div className="overlay"></div>
         </div>
         <div className="service-four">
           <Container>

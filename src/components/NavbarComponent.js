@@ -35,7 +35,7 @@ const NavbarComponent = (props) => {
               target="_blank"
               href="https://wa.me/628176389206"
             >
-              <i class="bx bxl-whatsapp"></i>(+62) 817-6389-206
+              <i className="bx bxl-whatsapp"></i>(+62) 817-6389-206
             </Button>
           </Navbar.Collapse>
         </Container>

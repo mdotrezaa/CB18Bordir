@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Image, Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col, Button, Image } from "react-bootstrap";
 
 export default class AboutPage extends React.Component {
   render() {

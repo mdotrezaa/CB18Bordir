@@ -4,13 +4,9 @@ import {
   Row,
   Col,
   Button,
-  Card,
-  Tabs,
-  Tab,
   Image,
   Pagination,
 } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 export default class ActivityPage extends React.Component {
   render() {
@@ -47,7 +43,7 @@ export default class ActivityPage extends React.Component {
                   </div>
                   <div className="list-body">
                     <h5>
-                      <a href="#">Penambahan Mesin Bordir Baru</a>
+                      <a href="/aktivitas">Penambahan Mesin Bordir Baru</a>
                     </h5>
                     <br />
                     <p>
@@ -62,7 +58,7 @@ export default class ActivityPage extends React.Component {
                     <br />
                     <Button
                       className="read-link"
-                      Style="width: 150px; float: right;"
+                      style={{ width: "150px", float: "right" }}
                     >
                       Baca
                     </Button>
@@ -87,7 +83,7 @@ export default class ActivityPage extends React.Component {
                   </div>
                   <div className="list-body">
                     <h5>
-                      <a href="#">Pembukaan Outlet Cabang</a>
+                      <a href="/aktivitas">Pembukaan Outlet Cabang</a>
                     </h5>
                     <br />
                     <p>
@@ -102,7 +98,7 @@ export default class ActivityPage extends React.Component {
                     <span>Cahaya Baru 18 Admin</span>
                     <Button
                       className="read-link"
-                      Style="width: 150px; float: right;"
+                      style={{ width: "150px", float: "right" }}
                     >
                       Baca
                     </Button>
@@ -127,7 +123,7 @@ export default class ActivityPage extends React.Component {
                   </div>
                   <div className="list-body">
                     <h5>
-                      <a href="#">
+                      <a href="/aktivitas">
                         Proyek Bordir Kementerian Ketenagakerjaan RI
                       </a>
                     </h5>
@@ -144,7 +140,7 @@ export default class ActivityPage extends React.Component {
                     <span>Cahaya Baru 18 Admin</span>
                     <Button
                       className="read-link"
-                      Style="width: 150px; float: right;"
+                      style={{ width: "150px", float: "right" }}
                     >
                       Baca
                     </Button>
