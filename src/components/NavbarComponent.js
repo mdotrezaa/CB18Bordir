@@ -17,18 +17,18 @@ const NavbarComponent = (props) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav justify-content-end">
             <Nav defaultActiveKey="/" className="ml-auto center-img">
-              <NavLink activeClassName="active" to="/tentang-kami">
+              <Nav.Link activeClassName="active" href="/tentang-kami">
                 Tentang Kami
-              </NavLink>
-              <NavLink activeClassName="active" to="/layanan">
+              </Nav.Link>
+              <Nav.Link activeClassName="active" href="/layanan">
                 Layanan
-              </NavLink>
-              <NavLink activeClassName="active" to="/aktivitas">
+              </Nav.Link>
+              <Nav.Link activeClassName="active" href="/aktivitas">
                 Aktivitas
-              </NavLink>
-              <NavLink activeClassName="active" to="/kontak-kami">
+              </Nav.Link>
+              <Nav.Link activeClassName="active" href="/kontak-kami">
                 Kontak
-              </NavLink>
+              </Nav.Link>
             </Nav>
             <Button
               className="wa-btn"
